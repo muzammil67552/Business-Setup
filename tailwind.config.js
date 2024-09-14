@@ -14,7 +14,7 @@ module.exports = {
            'brandPrimary': '#4CAF4F',
            'neutralGray' : '#717171',
            'gray-900': '#18191F',
-      }
+      }// 
     },
   },
   plugins: [
