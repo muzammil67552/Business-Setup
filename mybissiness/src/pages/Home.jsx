@@ -1,6 +1,10 @@
 import React from 'react';
 import { Carousel } from "flowbite-react";
-import Contact from './Contact';
+import Contact from '../components/Contact';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import TestimonialSlider from '../components/TestimonialSlider';
+
 
 const Home = () => {
     return (
@@ -20,7 +24,7 @@ const Home = () => {
                     {/* Text Section */}
                     <div className="px-4 md:px-0">
                         <h2 className="font-semibold text-2xl md:text-3xl cursor-pointer hover:text-gray-400 md:font-bold">
-                className='pt-2 text-cyan-100'             Get Consultant For Your Business from PETAC
+                             Get Consultant For Your Business from PETAC
                         </h2>
                         <p className="text-base md:text-xl mt-4">
                             We specialize in providing strategic business consulting services tailored to the unique needs of enterprises in Oman. Our mission is to drive growth and operational efficiency by delivering insightful, data-driven solutions.
@@ -171,6 +175,9 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
+                {/* Client Testimonial  */}
+
+               <TestimonialSlider/>
               {/* Contact Form */}
                   <Contact/>
                  

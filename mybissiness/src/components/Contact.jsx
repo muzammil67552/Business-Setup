@@ -1,4 +1,3 @@
-import React from 'react';
 import { IoCall } from "react-icons/io5";
 import { FaEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
@@ -46,14 +45,14 @@ const Contact = () => {
               </div>
   
               {/* Right Section */}
-              <div className='bg-white rounded-xl shadow-xl p-8 text-gray-800 font-semibold md:w-1/2 md:mt-0 mt-6'>
+              <div className='bg-white rounded-xl shadow-xl p-8 text-gray-800 font-semibold md:w-1/2 md:mt-0 mt-6 '>
                   <form className='flex flex-col space-y-6'>
                       <div>
                           <label htmlFor='' className='text-sm'>Your Name</label>
                           <input
                               type='text'
                               placeholder='Enter Your Name'
-                              className='mt-2 ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-500 border-b'
+                              className='mt-2 ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-500 '
                           />
                       </div>
                       <div>
@@ -61,7 +60,7 @@ const Contact = () => {
                           <input
                               type='email'
                               placeholder='Email Address'
-                              className='mt-2 ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-500 border-b'
+                              className='mt-2 ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-500 '
                           />
                       </div>
                       <div>
@@ -69,10 +68,10 @@ const Contact = () => {
                           <textarea
                               placeholder='Your Message'
                               rows="4"
-                              className='mt-2 ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-500 border-b'>
+                              className='mt-2 ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-teal-500 '>
                           </textarea>
                       </div>
-                      <button className="bg-cyan-700 text-white py-3 rounded-lg hover:bg-teal-500 transition duration-300">
+                      <button className="btn-primary">
                           Send Message
                       </button>
                   </form>
