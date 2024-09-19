@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaEnvelope, FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 const Header = () => {

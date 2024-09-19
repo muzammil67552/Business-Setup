@@ -6,7 +6,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Contact = () => {
     return (
-        <div className='antialiased bg-gray-50 mt-10'>
+        <div className='antialiased bg-gray-50  mt-16'>
         <div className='flex w-full min-h-screen justify-center items-center'>
           <div className='flex flex-col md:flex-row md:space-x-8 bg-cyan-700 w-full max-w-6xl p-10 rounded-xl shadow-lg text-white'>
   

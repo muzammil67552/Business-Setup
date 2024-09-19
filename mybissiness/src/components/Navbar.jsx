@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FaXmark, FaBars } from "react-icons/fa6";
 
 const Navbar = () => {
@@ -12,8 +12,8 @@ const Navbar = () => {
     };
 
     // Handle Dropdown
-    const handleDropdown = (item) => {
-        setActiveDropdown(activeDropdown === item ? null : item);
+    const handleDropdownClick = (name) => {
+        setActiveDropdown(activeDropdown === name ? null : name); // Toggle the clicked dropdown
     };
 
     useEffect(() => {
@@ -33,11 +33,34 @@ const Navbar = () => {
 
     // NavLink Names In Array
     const navItems = [
-        { Link: "Home", path: "home" },
-        { Link: "About", path: "about" },
-        { Link: "Service", path: "service", dropdown: ["Consulting", "Training", "Support"] },
-        { Link: "Testimonial", path: "testimonial", dropdown: ["Client 1", "Client 2"] },
-        { Link: "FAQ", path: "faq", dropdown: ["General", "Technical","General", "Technical"] },
+        { name: "Home", path: "/" },
+        { name: "About", path: "/about" },
+        { 
+            name: "Service", 
+            path: "#", 
+            dropdown: [
+                { label: "Local Sponsorship", path: "/service/local-sponsorship" },
+                { label: "LLC License & Formation", path: "/service/llc-license-formation" },
+                { label: "Investor Company Formation", path: "/service/investor-company-formation" },
+                { label: "Pro Service", path: "/service/pro-service" },
+                { label: "Oman Visa Clearance", path: "/service/oman-visa-clearance" }
+            ] 
+        },
+        { 
+            name: "Resources", 
+            path: "#", 
+            dropdown: [
+                { label: "Blogs", path: "/resources/blogs" }
+            ] 
+        },
+        { 
+            name: "FAQ", 
+            path: "#", 
+            dropdown: [
+                { label: "Contact Us", path: "/contact" },
+                { label: "Technical", path: "/faq/technical" }
+            ] 
+        },
     ];
 
     return (
@@ -46,25 +69,25 @@ const Navbar = () => {
                 <div className='flex justify-between items-center text-base gap-8'>
                     <a href='#' className='flex items-center'>
                         <img src='/main logo 1.png' alt='Logo' className='w-28 h-28' />
-                        <span className='text-[#263238] text-2xl font-semibold -m-'>PETAC</span>
+                        <span className='text-[#263238] text-2xl font-semibold'>PETAC</span>
                     </a>
 
                     {/* navItems For Large Devices */}
                     <ul className='md:flex space-x-12 hidden'>
-                        {navItems.map(({ Link, path, dropdown }) => (
+                        {navItems.map(({ name, path, dropdown }) => (
                             <li key={path} className="relative group">
                                 <a 
-                                    href={dropdown ? '#' : `#${path}`} 
-                                    onClick={dropdown ? (e) => { e.preventDefault(); handleDropdown(path); } : null}
+                                    href={dropdown ? '#' : path} 
+                                    onClick={dropdown ? (e) => { e.preventDefault(); handleDropdownClick(name); } : null}
                                     className="block text-xl text-gray-900 hover:text-[#4CAF4F] duration-200 first:font-medium"
                                 >
-                                    {Link}
+                                    {name}
                                 </a>
                                 {dropdown && (
-                                    <div className={`absolute top-full left-0 mt-2 w-48 bg-white border border-green-300 shadow-lg ${activeDropdown === path ? 'block' : 'hidden'} group-hover:block`}>
-                                        {dropdown.map((item, index) => (
-                                            <a key={index} href={`#${item}`} className="block px-4 py-2 text-gray-700 hover:bg-gray-100 border-b">
-                                                {item}
+                                    <div className={`absolute top-full left-0 mt-2 w-48 bg-white border border-green-300 shadow-lg ${activeDropdown === name ? 'block' : 'hidden'} group-hover:block`}>
+                                        {dropdown.map(({ label, path }, index) => (
+                                            <a key={index} href={path} className="block px-4 py-2 text-gray-700 hover:bg-gray-100 border-b">
+                                                {label}
                                             </a>
                                         ))}
                                     </div>
@@ -92,23 +115,24 @@ const Navbar = () => {
                 {/* NavItems For Mobile Devices */}
                 <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} mt-4 bg-gray-200 px-4 py-7`}>
                     <ul className='space-y-4'>
-                        {navItems.map(({ Link, path, dropdown }) => (
+                        {navItems.map(({ name, path, dropdown }) => (
                             <li key={path} className="relative">
                                 <a 
-                                    href={dropdown ? '#' : `#${path}`} 
-                                    onClick={dropdown ? (e) => { e.preventDefault(); handleDropdown(path); } : null}
+                                    href={dropdown ? '#' : path} 
+                                    onClick={dropdown ? (e) => { e.preventDefault(); handleDropdownClick(name); } : null}
                                     className="block text-xl text-gray-900 hover:text-[#4CAF4F] duration-500 first:font-medium"
                                 >
-                                    {Link}
+                                    {name}
                                 </a>
+                                
                                 {dropdown && (
                                     <div 
-                                        className={`absolute left-0 mt-2 w-full bg-gray-100 border border-gray-300 shadow-lg ${activeDropdown === path ? 'block' : 'hidden'}`}
-                                        style={{ top: '100%', zIndex: 10 }} // Ensure dropdown opens below the parent and has higher z-index
+                                        className={`mt-2 w-full bg-gray-100 border border-gray-300 shadow-lg ${activeDropdown === name ? 'block' : 'hidden'}`}
+                                        style={{ zIndex: 10 }} // Ensure dropdown opens below the parent and has higher z-index
                                     >
-                                        {dropdown.map((item, index) => (
-                                            <a key={index} href={`#${item}`} className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
-                                                {item}
+                                        {dropdown.map(({ label, path }, index) => (
+                                            <a key={index} href={path} className="block px-4 py-2 text-gray-700 hover:bg-gray-100">
+                                                {label}
                                             </a>
                                         ))}
                                     </div>

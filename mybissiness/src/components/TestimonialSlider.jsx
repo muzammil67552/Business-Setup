@@ -3,10 +3,11 @@ import Slider from "react-slick";
 
 // Array of random image URLs
 const images = [
-  "https://via.placeholder.com/150/0000FF/FFFFFF/?text=Image1",
-  "https://via.placeholder.com/150/FF0000/FFFFFF/?text=Image2",
-  "https://via.placeholder.com/150/00FF00/FFFFFF/?text=Image3",
-  "https://via.placeholder.com/150/FFFF00/FFFFFF/?text=Image4",
+  "/testimonial 2.jpg",
+  "/testimonial 1.jpeg",
+  "/testimonial 3.jpg",
+  "/testimonial 4.jpeg",
+  "/testi 5.webp",
 ];
 
 // Testimonials array
@@ -66,7 +67,7 @@ const TestimonialSlider = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-8 rounded  space-x-4 ">
-      <h2 className="md:text-4xl text-2xl font-bold text-center mb-10 mt-10">Client Testimonials</h2>
+      <h2 className="md:text-4xl text-2xl font-bold text-center mb-20 mt-16">Client Testimonials</h2>
       <Slider {...settings}>
         {testimonials.map((testimonial, index) => (
           <div key={index} className="bg-white shadow-2xl p-6 rounded-lg text-center border gap-6  ">

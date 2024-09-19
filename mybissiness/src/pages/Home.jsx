@@ -1,4 +1,4 @@
-import React from 'react';
+/* eslint-disable react/no-unescaped-entities */
 import { Carousel } from "flowbite-react";
 import Contact from '../components/Contact';
 import "slick-carousel/slick/slick.css";
@@ -37,7 +37,7 @@ const Home = () => {
 
                     {/* Image Section */}
                     <div className="flex justify-center md:justify-start">
-                        <img src='/public/home 2.jpg' className="w-96 md:w-96 p-2" alt="Consulting Image 1" />
+                        <img src='/home 2.jpg' className="w-96 md:w-96 p-2" alt="Consulting Image 1" />
                     </div>
                     <div className="flex justify-center md:justify-start">
                         <img src='/home 3.jpg' className="w-96 md:w-96 p-2" alt="Consulting Image 2" />
@@ -179,6 +179,9 @@ const Home = () => {
 
                <TestimonialSlider/>
               {/* Contact Form */}
+              <div>
+                    <h1 className="md:text-4xl text-2xl font-bold text-center mb-10 mt-16 ">Contact Us</h1>
+                </div>
                   <Contact/>
                  
             </div>
