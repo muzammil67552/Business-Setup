@@ -13,11 +13,12 @@ const Home = () => {
                 {/* Banner Section */}
                 <div>
                     <img 
-                        src="/Home main.png" 
+                        src="/homebgcover1.webp" 
                         alt="Banner" 
-                        className="w-full h-60 md:h-96 object-cover md:mt-10 mt-5 p-2"
-                    />
-                </div>
+                        className="w-full h-96 md:h-screen md:mt-10 mt-5 p-4 banner-animation"
+                      />
+             </div>
+
 
                 {/* Content Section */}
                 <div className="container md:mt-10 mt-4 grid grid-cols-1 md:grid-cols-3 gap-4 border-b md:mx-auto">
@@ -175,14 +176,15 @@ const Home = () => {
                         </p>
                     </div>
                 </div>
-                {/* Client Testimonial  */}
+                 {/* Client Testimonial  */}
 
-               <TestimonialSlider/>
-              {/* Contact Form */}
-              <div>
+                   <TestimonialSlider/>
+                 {/* Contact Form */}
+                 <div>
                     <h1 className="md:text-4xl text-2xl font-bold text-center mb-10 mt-16 ">Contact Us</h1>
+                    <Contact/>
                 </div>
-                  <Contact/>
+                  
                  
             </div>
         </>

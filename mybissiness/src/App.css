@@ -12,4 +12,27 @@ header{
   margin-top: 13rem;
 }
 
+@keyframes slideIn {
+  0% {
+      opacity: 0;
+      transform: translateY(30px) scale(1.1);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+  }
+}
+
+.banner-animation {
+  animation: slideIn 1.2s ease-out forwards;
+  transition: transform 0.5s ease;
+}
+
+.banner-container {
+  overflow: hidden; /* Prevent overflow during animation */
+}
+
+
+
+
 
