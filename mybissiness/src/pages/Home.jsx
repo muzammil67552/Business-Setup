@@ -1,11 +1,9 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/no-unescaped-entities */
 import { Carousel } from "flowbite-react";
 import Contact from '../components/Contact';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TestimonialSlider from '../components/TestimonialSlider';
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 const Home = () => {
      const [hovered, setHovered] = useState(false);
@@ -74,14 +72,14 @@ const Home = () => {
 
                                      {/* Paragraph */}
                                     <p className="text-lg md:text-xl text-gray-700 mb-6 transition-all duration-500 hover:text-gray-900">
-                                     PETAC offers expert business consultation services in Oman, providing tailored solutions for startups and established companies. We specialize in business setup, strategic planning, and navigating Oman's regulatory landscape to ensure smooth operations and growth.
+                                     PETAC offers expert business consultation services in Oman, providing tailored solutions for startups and established companies. We specialize in business setup, strategic planning, and navigating Omans regulatory landscape to ensure smooth operations and growth.
                                     </p>
                                     <button className="px-6 py-3 bg-[#4CAF4F] text-white rounded-lg transition-transform transform hover:scale-110 hover:bg-blue-700 shadow-lg hover:shadow-2xl duration-300 ease-in-out">
                                       Learn More
                                     </button>
                             </div>
                              <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-                                    <img src="/public/home 3.jpg"
+                                    <img src="/home 3.jpg"
                                      className="w-3/4 md:w-full h-auto object-contain mr-2"
                                      />
                              </div>
@@ -107,7 +105,7 @@ const Home = () => {
                                             Grow Your Business in Oman With <span className="text-[#4CAF4F]">PETAC CONSULTANT</span>
                                         </h1>
                                         <p className="text-base md:text-xl mb-8">
-                                            A business consulting firm based in Oman, providing expert guidance on strategic planning, operations, and market expansion. Specializing in helping companies grow within the region's dynamic business environment, the firm offers tailored solutions for sustainable success.
+                                            A business consulting firm based in Oman, providing expert guidance on strategic planning, operations, and market expansion. Specializing in helping companies grow within the regions dynamic business environment, the firm offers tailored solutions for sustainable success.
                                         </p>
                                         <button className="btn-primary">
                                             Learn More
@@ -125,9 +123,9 @@ const Home = () => {
                             The Things You Will Expect From Our Consultant
                         </h1>
                         <p className="text-base md:text-xl mb-8">
-                            Making the decision to hire a business consultant is a significant and courageous step for any individual or organization. A consultant is an expert in a specific field, offering guidance and valuable insights to a company or an individual. Expectations from business consultants in Mumbai are often high, and rightfully so. This role typically comes into play when, despite all the hard work, things aren’t progressing as desired—something that many businesses experience.
+                            Making the decision to hire a business consultant is a significant and courageous step for any individual or organization. A consultant is an expert in a specific field, offering guidance and valuable insights to a company or an individual. Expectations from business consultants in Mumbai are often high, and rightfully so. This role typically comes into play when, despite all the hard work, things arent progressing as desired—something that many businesses experience.
                             <br /><br />
-                            The job of a consultant is, quite simply, to consult. There’s no magic formula or secret that makes one consultant more effective than another. What matters is their ability to provide practical solutions. Whether your business is just starting out or well-established, a capable business consultant can be the key to tightening up processes and driving the growth and improvement of your company.
+                            The job of a consultant is, quite simply, to consult.  no magic formula or secret that makes one consultant more effective than another. What matters is their ability to provide practical solutions. Whether your business is just starting out or well-established, a capable business consultant can be the key to tightening up processes and driving the growth and improvement of your company.
                         </p>
                         <h1 className='text-2xl md:text-4xl font-semibold text-[#4D4D4D] leading-tight pb-6'>
                             1. Understanding Your Business
@@ -147,7 +145,7 @@ const Home = () => {
                             3. Passion
                         </h1>
                         <p className='text-base md:text-xl mb-8'>
-                            When choosing a business consultant, ensure they share your passion for success. Don’t settle for being treated as just "another" client. Your consultant should be as invested in your business as you are. Look for someone who is excited about your goals and ready to bring energy and expertise to every step. The right consultant will treat your success as their own. Expect nothing less than full commitment.
+                            When choosing a business consultant, ensure they share your passion for success. Don’t settle for being treated as just another client. Your consultant should be as invested in your business as you are. Look for someone who is excited about your goals and ready to bring energy and expertise to every step. The right consultant will treat your success as their own. Expect nothing less than full commitment.
                         </p>
 
                         <h1 className='text-2xl md:text-4xl font-semibold text-[#4D4D4D] leading-tight pb-6'>
@@ -175,7 +173,7 @@ const Home = () => {
                             7. Measurable Results
                         </h1>
                         <p className='text-base md:text-xl mb-8'>
-                            A genuine business consultant should be able to produce measurable, positive results aligned with your business goals. While overnight success is unrealistic, our services ensure that you are clearly directed towards achieving your objectives. Our approach is designed to provide actionable insights and strategic guidance, helping you make informed decisions and progressively move towards success. With our expertise, you'll see tangible improvements and a clear path to growth, demonstrating that you are on the right track.
+                            A genuine business consultant should be able to produce measurable, positive results aligned with your business goals. While overnight success is unrealistic, our services ensure that you are clearly directed towards achieving your objectives. Our approach is designed to provide actionable insights and strategic guidance, helping you make informed decisions and progressively move towards success. With our expertise, you will see tangible improvements and a clear path to growth, demonstrating that you are on the right track.
                         </p>
 
                         {/* Additional sections omitted for brevity */}

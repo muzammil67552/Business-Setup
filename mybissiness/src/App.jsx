@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import AboutUs from './pages/AboutUs.jsx';
 // Resources Page
 import Blogs from './pages/Blogs';
 // Services Pages
@@ -25,6 +26,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
         {/* Blogs under Resources */}
         <Route path="/resources/blogs" element={<Blogs />} />
         
