@@ -19,7 +19,7 @@ const Footer = () => {
                     <p className='mx-5 mt-2 text-base cursor-pointer hover:text-gray-300 duration-300'>
                         Al Badi Building Near Lulu Center Ruwi Muscat<span className='text-2xl text-[#4CAF4F] mx-5 cursor-pointer hover:text-gray-300 duration-300'>Oman</span>
                     </p>
-                    <p className='mx-5 mt-2 text-base cursor-pointer hover:text-gray-300 duration-300'>brandseller277@gmail.com</p>
+                    <p className='mx-5 mt-2 text-base cursor-pointer hover:text-gray-300 duration-300'>info@gmail.com</p>
                     <p className='mx-5 mt-2 text-base cursor-pointer hover:text-gray-300 duration-300'>0096895259360</p>
                 </div>
 

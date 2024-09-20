@@ -16,6 +16,8 @@ import VisaClearance from './pages/VisaClearance';
 //Faq
 import Contact from './components/Contact';
 
+import CompanyInfo from './components/CompanyInfo.jsx';
+
 function App() {
   return (
     <Router>
@@ -33,11 +35,12 @@ function App() {
         <Route path="/service/pro-service" element={<ProServices />} />
         <Route path="/service/oman-visa-clearance" element={<VisaClearance />} />
         {/* Faq PAges */}
-        <Route path="/contact" element={<div className="mt-36"><Contact /></div>} />
+        <Route path="/contact" element={<div className="mt-36 "><Contact /></div>} />
         
         {/* Add other routes if necessary */}
 
       </Routes>
+      <CompanyInfo/>
       <Footer />
     </Router>
   );

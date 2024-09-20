@@ -6,7 +6,7 @@ header{
     z-index: 10001 !important;
 }
 .btn-primary{
-  @apply bg-[#4CAF4F] text-white py-2 px-4 transition-all duration-100  rounded hover:bg-[#717171] text-lg md:text-xl mt-4 md:mx-2 transition-all duration-300 hover:bg-[#4D4D4D] hover:translate-y-4;
+  @apply px-6 py-3 bg-[#4CAF4F] text-white rounded-lg transition-transform transform hover:scale-110 hover:bg-blue-700 shadow-lg hover:shadow-2xl duration-300 ease-in-out;
 }
 .page-top{
   margin-top: 13rem;
@@ -30,6 +30,20 @@ header{
 
 .banner-container {
   overflow: hidden; /* Prevent overflow during animation */
+}
+.movingTexts h1 {
+  display: inline-block; /* Ensures the h1 moves as an inline element */
+  animation: moving 35s linear infinite; /* Continuous movement */
+  white-space: nowrap; /* Prevents the text from wrapping to a new line */
+}
+
+@keyframes moving {
+  from {
+    transform: translateX(50%); /* Start from right side (off-screen) */
+  }
+  to {
+    transform: translateX(-100%); /* Move to the left side (off-screen) */
+  }
 }
 
 

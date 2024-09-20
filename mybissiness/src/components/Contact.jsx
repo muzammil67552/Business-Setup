@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import { IoCall } from "react-icons/io5";
 import { FaEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
@@ -77,7 +78,36 @@ const Contact = () => {
                   </form>
               </div>
           </div>
+         
       </div>
+
+      <div  className=" md:space-x-8 w-full max-w-6xl text-center justify-center mx-auto items-center md:mt-6 mt-10 rounded-xl">
+
+               <div className='space-y-3  space-x-3 flex flex-col md:mx-0 mx-4 '>
+                      <div className='inline-flex space-x-3 items-center'>
+                          <IoCall className='text-gray-700-300 text-2xl md:text-4xl'/>
+                          <span className="md:text-2xl text-xl">+(0096895259360)</span>
+                      </div>
+                      <div className='inline-flex space-x-3 items-center'>
+                          <FaEnvelope className='text-gray-700 text-2xl md:text-4xl'/>
+                          <span className="md:text-2xl text-xl">info@gmail.com</span>
+                      </div>
+                      <div className='inline-flex space-x-3 items-center'>
+                          <FaLocationDot className='text-gray-700-300 text-2xl md:text-4xl'/>
+                          <span className="md:text-2xl text-xl">
+                              Al Badi Building Near Lulu Center, Ruwi Muscat, Oman
+                          </span>
+                      </div>
+                  </div>
+
+         <div className="p-10 md:space-x-8 w-full max-w-6xl text-center justify-center mx-auto items-center rounded-xl">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234072.6186728007!2d58.217213087912214!3d23.55462426815719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e91f901a11f0425%3A0x2244b4a5b13bac63!2sLuLu%20Hypermarket%20-%20Ruwi!5e0!3m2!1sen!2s!4v1726819389996!5m2!1sen!2s" 
+          width="100%" 
+          height="450"
+          style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          </div>
+        </div>
   </div>
     );
 };
