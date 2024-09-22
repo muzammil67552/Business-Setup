@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { FaXmark, FaBars } from "react-icons/fa6";
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ const Navbar = () => {
 
     // Handle Dropdown
     const handleDropdownClick = (name) => {
-        setActiveDropdown(activeDropdown === name ? null : name); // Toggle the clicked dropdown
+        setActiveDropdown(activeDropdown === name ? null : name); 
     };
 
     useEffect(() => {
@@ -43,9 +44,14 @@ const Navbar = () => {
                 { label: "LLC License & Formation", path: "/service/llc-license-formation" },
                 { label: "Investor Company Formation", path: "/service/investor-company-formation" },
                 { label: "Pro Service", path: "/service/pro-service" },
-                { label: "Oman Visa Clearance", path: "/service/oman-visa-clearance" }
+                { label: "Oman Visa Clearance", path: "/service/oman-visa-clearance" },
+                { label: "Mobile Software & Hardware", path: "/service/oman-visa-clearance" },
+                { label: "Garments", path: "/service/oman-visa-clearance" },
+                { label: "Carpentry", path: "/service/oman-visa-clearance" },
+                { label: "Oman Visa Clearance", path: "/service/oman-visa-clearance" },
             ] 
         },
+        { name: "Real State", path: "/real-state" },
         { 
             name: "Resources", 
             path: "#", 
@@ -68,7 +74,8 @@ const Navbar = () => {
             <nav className={`py-2 lg:px-14 px-4 transition-all duration-300 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-white" : ""}`}>
                 <div className='flex justify-between items-center text-base gap-8'>
                     <a href='#' className='flex items-center'>
-                        <img src='/main logo 1.png' alt='Logo' className='w-28 h-28' />
+                    <img src='/logo 1.jpg' alt='Logo' className='w-28 h-28 rounded-full' />
+
                         <span className='text-[#263238] text-2xl font-semibold'>PETAC</span>
                     </a>
 
@@ -98,10 +105,18 @@ const Navbar = () => {
 
                     {/* Btn For Contact */}
                     <div className='space-x-12 hidden lg:flex items-center'>
-                        <a className='text-[#4CAF4F] hover:text-gray-900 cursor-pointer text-xl'>Login</a>
+
+                       <NavLink to="/calculated-form">
                         <button className='btn-primary'>
-                            Sign Up
+                            QUOTE
                         </button>
+                       </NavLink>
+                       
+                        <NavLink to="/contact">
+                        <button className='btn-primary'>
+                            Contact
+                        </button>
+                        </NavLink>
                     </div>
 
                     {/* Btn For Mobile Just */}

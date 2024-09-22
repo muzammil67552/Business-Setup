@@ -74,7 +74,7 @@ const Home = () => {
                                     <p className="text-lg md:text-xl text-gray-700 mb-6 transition-all duration-500 hover:text-gray-900">
                                      PETAC offers expert business consultation services in Oman, providing tailored solutions for startups and established companies. We specialize in business setup, strategic planning, and navigating Omans regulatory landscape to ensure smooth operations and growth.
                                     </p>
-                                    <button className="px-6 py-3 bg-[#4CAF4F] text-white rounded-lg transition-transform transform hover:scale-110 hover:bg-blue-700 shadow-lg hover:shadow-2xl duration-300 ease-in-out">
+                                    <button className="btn-primary">
                                       Learn More
                                     </button>
                             </div>

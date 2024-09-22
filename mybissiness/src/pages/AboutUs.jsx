@@ -1,4 +1,4 @@
-
+import Contact from "../components/Contact";
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa"; // Importing icons from react-icons
 import { FaArrowAltCircleRight } from "react-icons/fa"; // Importing the arrow icon
 
@@ -144,10 +144,37 @@ const AboutUs = () => {
           </p>
         </div>
 
-         <div className="">
-            
+         <div className="border-b shadow-md w-full md:text-left px-4 mb-6 pb-4 md:mt-20 mt-10">
+             <h1 className="md:text-5xl text-2xl font-semibold text-gray-800">
+                 Expert Services:
+             </h1>
+             <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl">
+            <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
+             Local Sponsorship
+          </p>
+          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl">
+            <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
+             LLC License Formation
+          </p>
+          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl">
+            <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
+             Investor company Formation
+          </p>
+          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl">
+            <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
+             Pro Service
+          </p>
+          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl">
+            <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
+             Oman Visa Clearance
+          </p>
+          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl">
+            <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
+             Feel Freely Contact Us
+          </p>
          </div>
       </div>
+           <Contact/>
     </div>
   );
 };

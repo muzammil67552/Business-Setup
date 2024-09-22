@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
@@ -16,8 +15,10 @@ import ProServices from './pages/ProServices';
 import VisaClearance from './pages/VisaClearance';
 //Faq
 import Contact from './components/Contact';
+import Faq from './pages/Faq';
 
 import CompanyInfo from './components/CompanyInfo.jsx';
+import QuoteForm from './components/QuoteForm.jsx';
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
         <Route path="/service/oman-visa-clearance" element={<VisaClearance />} />
         {/* Faq PAges */}
         <Route path="/contact" element={<div className="mt-36 "><Contact /></div>} />
+        <Route path="/faq/technical" element={<Faq/>} />
+        {/* the button is in Only Navbar  */}
+        <Route path="/calculated-form" element={<QuoteForm/>}/>
         
         {/* Add other routes if necessary */}
 
