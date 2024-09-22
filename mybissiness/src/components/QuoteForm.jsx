@@ -8,8 +8,11 @@ import StepperContext from "./contexts/StepperContext";
 import Business from "./steps/Business";
 import Details from "./steps/Details";
 import Final from "./steps/Final";
+//suport testimonial from components
+import TestimonialSlider from "./TestimonialSlider";
 
 const QuoteForm = () => {
+
     const [currentStep, setCurrentStep] = useState(1);
     const [userData, setUserData] = useState("");
     const [finalData, setFinalData] = useState([]);
@@ -39,13 +42,43 @@ const QuoteForm = () => {
     };
 
     return (
-        <div className="w-1/2 mx-auto shadow-xl rounded-2xl pb-2 bg-white page-top">
-            <div className="container horizontal mt-5">
+        <>
+        <div className=" page-top">
+               <h1 className="md:text-5xl font-semibold text-3xl text-center mt-8">Setup Business In Oman With 100% OwnerShip</h1>
+                <h1 className="md:text-4xl font-semibold text-2xl text-center md:mb-8 mt-12 text-[#4CAF4F] ">What We Provide For Our Valuable Customers</h1>
+                <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 justify-evenly p-10  ">
+                    <div className="flex flex-col items-center  mt-10   shadow-lg  ">
+                       <img className="  md:p-12 " src="/tradmark2.png" alt="Trade Mark" />
+                        <h2 className="md:text-2xl text-xl text-center text-red-800">Trade Mark</h2>
+                     </div>
+                     <div className="flex flex-col items-center   mt-10  shadow-lg ">
+                       <img className=" md:text-3xl text-2x  " src="/finalizaactivity.png" alt="Trade Mark" />
+                       <h2 className="md:text-2xl text-xl text-center text-red-800">Finalizing Activity</h2>
+                     </div>
+                      <div className="flex flex-col items-center p-10   mt-10 shadow-lg">
+                        <img className=" md:p-8" src="/documents.png" alt="Trade Mark" />
+                        <h2 className="md:text-2xl text-xl text-center text-red-800">Clear Documentation</h2>
+                      </div>
+                       <div className="flex flex-col items-center p-10   mt-10  shadow-lg ">
+                         <img className=" mb-2" src="/goldenvisa.png" alt="Trade Mark" />
+                         <h2 className="md:text-2xl text-xl text-center text-red-800">Golden Visa</h2>
+                       </div>
+                </div>
+         </div>
+
+         <div className="flex justify-center md:page-top mt-8 ">
+              <div>
+                    <h2 className="md:text-3xl font-medium text-2xl text-center mt-3">Calculate Cost</h2>
+                    <p className="md:text-2xl text-red-700 text-xl text-center mt-3 ">Please Fill Up The Below Requirements</p>
+             </div>
+         </div>
+         <div className=" mx-auto shadow-md  rounded-2xl pb-8  bg-white mt-10">
+            <div className="container horizontal mt-5 justify-center mx-auto md:px-64 ">
                 <Stepper 
                     steps={steps} 
                     currentStep={currentStep} 
                 />
-                <div className="my-10 p-10">
+                <div className="my-10 p-10 mx-auto ">
                     <StepperContext.Provider value={{
                         userData,
                         setUserData,
@@ -64,6 +97,17 @@ const QuoteForm = () => {
                 steps={steps}
             />
         </div>
+
+        <div>
+         <TestimonialSlider className=""/>
+        </div>
+
+
+
+
+
+        </>
+
     );
 };
 
