@@ -19,6 +19,7 @@ import Faq from './pages/Faq';
 
 import CompanyInfo from './components/CompanyInfo.jsx';
 import QuoteForm from './components/QuoteForm.jsx';
+import ScrollToTopButton from './components/ScrollToTopButton.jsx';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
       </Routes>
       <CompanyInfo/>
       <Footer />
+      <ScrollToTopButton/>
     </Router>
   );
 }

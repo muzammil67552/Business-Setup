@@ -2,8 +2,8 @@
 
 const InvestCompany = () => {
   return (
-    <div>InvestCompany</div>
+    <div className="page-top">InvestCompany</div>
   )
 }
 
-export default InvestCompany
+export default InvestCompany;

@@ -37,8 +37,8 @@ const Navbar = () => {
         { name: "Home", path: "/" },
         { name: "About", path: "/about" },
         { 
-            name: "Service", 
-            path: "#", 
+            name: "Service" ,
+            path: "#" , 
             dropdown: [
                 { label: "Local Sponsorship", path: "/service/local-sponsorship" },
                 { label: "LLC License & Formation", path: "/service/llc-license-formation" },
@@ -48,13 +48,12 @@ const Navbar = () => {
                 { label: "Mobile Software & Hardware", path: "/service/oman-visa-clearance" },
                 { label: "Garments", path: "/service/oman-visa-clearance" },
                 { label: "Carpentry", path: "/service/oman-visa-clearance" },
-                { label: "Oman Visa Clearance", path: "/service/oman-visa-clearance" },
             ] 
         },
         { name: "Real State", path: "/real-state" },
         { 
             name: "Resources", 
-            path: "#", 
+            path: "", 
             dropdown: [
                 { label: "Blogs", path: "/resources/blogs" }
             ] 

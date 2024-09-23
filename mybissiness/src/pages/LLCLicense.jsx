@@ -5,4 +5,4 @@ const LLCLicense = () => {
   )
 }
 
-export default LLCLicense
+export default LLCLicense;

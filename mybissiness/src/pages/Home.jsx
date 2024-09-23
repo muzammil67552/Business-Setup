@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TestimonialSlider from '../components/TestimonialSlider';
 import  { useState } from 'react';
+import ServiceCard from "../components/ServiceCard";
 
 const Home = () => {
      const [hovered, setHovered] = useState(false);
@@ -41,7 +42,7 @@ const Home = () => {
                              <h1 className="text-3xl md:text-6xl font-bold mb-4">
                                PETAC Business Consultant Oman
                              </h1>
-                             <p className="text-lg md:text-xl  mb-6 mx-auto  md:items-center text-center md:px-72">
+                             <p className="text-xl text-[#4D4D4D] mb-8 md:w-3/4 mx-auto">
                               SetUp Your Business In Oman With Low Investement. Paracha Enterprises Trading and Contracting LLC (PETAC)Your Trusted Partner for Business Success in Oman
                               One Stop Solution For All Your Business Needs.Get 100% Foreign OwnerShip Company Registered From Highly Experienced Consultant Now...  
                              </p>
@@ -116,7 +117,7 @@ const Home = () => {
                         </Carousel>
                     </div>
                 </div>
-
+                  {/* Content Or Text Section */}
                 <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen md:mt-24 ">
                     <div className="border-b shadow-md w-full md:text-left px-4">
                         <h1 className="text-3xl md:text-5xl font-semibold text-[#4D4D4D] leading-tight pb-6">
@@ -179,13 +180,13 @@ const Home = () => {
                         {/* Additional sections omitted for brevity */}
                     </div>
                 </div>
-
+                {/* Our ServiceCard Section */}
+                <ServiceCard/>
                 {/* Client Testimonial */}
                 <TestimonialSlider />
-
                 {/* Contact Form */}
                 <div>
-                    <h1 className="md:text-5xl text-3xl font-semi-bold text-center mb-10 mt-16">Contact Us</h1>
+                    <h1 className="text-center mt-16  md:text-5xl text-2xl font-semibold ">Contact Us</h1>
                     <Contact />
                 </div>
             </div>

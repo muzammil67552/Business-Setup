@@ -5,4 +5,4 @@ const LocalSponsor = () => {
   )
 }
 
-export default LocalSponsor
+export default LocalSponsor;

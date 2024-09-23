@@ -5,4 +5,4 @@ const VisaClearance = () => {
   )
 }
 
-export default VisaClearance
+export default VisaClearance;

@@ -30,5 +30,10 @@ Steps:
 
 1. Business.jsx (business information step)
 2. Details.jsx (details step)
-3. Final.jsx (final step) -->
+3. Final.jsx (final step) 
+
+React Toast Validation
+To add input validation and toast notifications for invalid form submissions, we can use react-toastify. We'll set validation logic in Business, Details, and the main form, then trigger a toast notification if the user attempts to proceed without completing required fields.
+
+-->
 
