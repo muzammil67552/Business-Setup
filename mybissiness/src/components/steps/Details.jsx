@@ -1,21 +1,12 @@
-import  { useState } from 'react';
+import { useContext } from "react";
+import StepperContext from "../contexts/StepperContext";
 
 const Details = () => {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        contactNumber: '',
-        nationality: '',
-        city: '',
-        startBusiness: '',
-    });
+    const { userData, setUserData } = useContext(StepperContext);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
-        setFormData({
-            ...formData,
-            [name]: value,
-        });
+        setUserData({ ...userData, [name]: value });
     };
 
     return (
@@ -24,61 +15,23 @@ const Details = () => {
 
             {/* Name */}
             <label className="mb-2 font-semibold">Name</label>
-            <input
-                type="text"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                placeholder="Enter your name"
-                className="mb-4 border rounded-lg p-2"
-                required
-            />
+            <input type="text" name="name" value={userData.name} onChange={handleChange} placeholder="Enter your name" className="mb-4 border rounded-lg p-2" />
 
             {/* Email */}
             <label className="mb-2 font-semibold">Email</label>
-            <input
-                type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder="Enter your email"
-                className="mb-4 border rounded-lg p-2"
-                required
-            />
+            <input type="email" name="email" value={userData.email} onChange={handleChange} placeholder="Enter your email" className="mb-4 border rounded-lg p-2" />
 
-            {/* Contact Number with Country Code */}
-            <label className="mb-2 font-semibold">Contact Number (With Country Code)</label>
-            <input
-                type="text"
-                name="contactNumber"
-                value={formData.contactNumber}
-                onChange={handleChange}
-                placeholder="+Country Code Contact Number"
-                className="mb-4 border rounded-lg p-2"
-                required
-            />
+            {/* Contact Number */}
+            <label className="mb-2 font-semibold">Contact Number</label>
+            <input type="text" name="contactNumber" value={userData.contactNumber} onChange={handleChange} placeholder="+Country Code Contact Number" className="mb-4 border rounded-lg p-2" />
 
             {/* Nationality */}
             <label className="mb-2 font-semibold">Nationality</label>
-            <input
-                type="text"
-                name="nationality"
-                value={formData.nationality}
-                onChange={handleChange}
-                placeholder="Enter your nationality"
-                className="mb-4 border rounded-lg p-2"
-                required
-            />
+            <input type="text" name="nationality" value={userData.nationality} onChange={handleChange} placeholder="Enter your nationality" className="mb-4 border rounded-lg p-2" />
 
-            {/* Dropdown: Select City for Setting Up Company */}
+            {/* City */}
             <label className="mb-2 font-semibold">Want To Setup a Company in</label>
-            <select
-                name="city"
-                value={formData.city}
-                onChange={handleChange}
-                className="mb-4 border rounded-lg p-2"
-                required
-            >
+            <select name="city" value={userData.city} onChange={handleChange} className="mb-4 border rounded-lg p-2">
                 <option value="">Select a city</option>
                 <option value="Muscat">Muscat</option>
                 <option value="Salalah">Salalah</option>
@@ -87,34 +40,18 @@ const Details = () => {
                 <option value="Sur">Sur</option>
             </select>
 
-            {/* Radio Buttons: When to Start Business */}
+            {/* Start Business */}
             <label className="mb-2 font-semibold">When Will You Start the Business?</label>
             <div className="mb-4">
                 <label className="mr-4">
-                    <input
-                        type="radio"
-                        name="startBusiness"
-                        value="1 Week"
-                        checked={formData.startBusiness === '1 Week'}
-                        onChange={handleChange}
-                        className="mr-2"
-                    />
+                    <input type="radio" name="startBusiness" value="1 Week" checked={userData.startBusiness === "1 Week"} onChange={handleChange} className="mr-2" />
                     1 Week
                 </label>
                 <label>
-                    <input
-                        type="radio"
-                        name="startBusiness"
-                        value="More than 1 Week"
-                        checked={formData.startBusiness === 'More than 1 Week'}
-                        onChange={handleChange}
-                        className="mr-2"
-                    />
+                    <input type="radio" name="startBusiness" value="More than 1 Week" checked={userData.startBusiness === "More than 1 Week"} onChange={handleChange} className="mr-2" />
                     More than 1 Week
                 </label>
             </div>
-
-           
         </div>
     );
 };

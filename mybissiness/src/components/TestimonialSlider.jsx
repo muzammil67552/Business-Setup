@@ -77,7 +77,7 @@ const TestimonialSlider = () => {
               alt={`testimonial-${index}`}
               className="w-20 h-20 mx-auto mb-4 rounded-full object-cover space-x-2 "
             />
-            <p className="text-xl font-semibold mb-2">{testimonial.name}</p>
+            <p className="md:text-xl text-base font-semibold mb-2">{testimonial.name}</p>
             <p className="text-sm text-gray-500">{testimonial.date}</p>
             <p className="text-md text-gray-700 italic mb-4">{testimonial.description}</p>
             <div className="flex justify-center mb-4 ">
