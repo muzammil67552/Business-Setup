@@ -40,7 +40,7 @@ const Navbar = () => {
             name: "Service" ,
             path: "#" , 
             dropdown: [
-                { label: "Local Sponsorship", path: "/service/local-sponsorship" },
+                { label: "Company Registration", path: "/service/company-registration" },
                 { label: "LLC License & Formation", path: "/service/llc-license-formation" },
                 { label: "Investor Company Formation", path: "/service/investor-company-formation" },
                 { label: "Pro Service", path: "/service/pro-service" },

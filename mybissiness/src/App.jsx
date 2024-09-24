@@ -10,7 +10,7 @@ import Blogs from './pages/Blogs';
 // Services Pages
 import InvestCompany from './pages/InvestCompany';
 import LLCLicense from './pages/LLCLicense';
-import LocalSponsor from './pages/LocalSponsor';
+import CompanyReg from './pages/CompanyReg.jsx';
 import ProServices from './pages/ProServices';
 import VisaClearance from './pages/VisaClearance';
 //Faq
@@ -35,7 +35,7 @@ function App() {
         {/* Services Routes */}
         <Route path="/service/investor-company-formation" element={<InvestCompany />} />
         <Route path="/service/llc-license-formation" element={<LLCLicense />} />
-        <Route path="/service/local-sponsorship" element={<LocalSponsor />} />
+        <Route path="/service/company-registration" element={<CompanyReg/>} />
         <Route path="/service/pro-service" element={<ProServices />} />
         <Route path="/service/oman-visa-clearance" element={<VisaClearance />} />
         {/* Faq PAges */}

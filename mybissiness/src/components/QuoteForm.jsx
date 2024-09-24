@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Stepper from "./Stepper";
 import StepperControl from "./StepperControl";
 import StepperContext from "./contexts/StepperContext";
@@ -47,7 +47,7 @@ const QuoteForm = () => {
 
         if (direction === "next") {
             if (!validateStep()) {
-                return;
+                return; // Prevent going to the next step if validation fails
             }
             newStep++;
         } else {
@@ -72,39 +72,37 @@ const QuoteForm = () => {
 
     return (
         <>
-
-          <div className=" page-top">
-               <h1 className="md:text-5xl font-semibold text-3xl text-center mt-8">Setup Business In Oman With 100% OwnerShip</h1>
-                <h1 className="md:text-4xl font-semibold text-2xl text-center md:mb-8 mt-12 text-[#4CAF4F] ">What We Provide For Our Valuable Customers</h1>
-                <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 justify-evenly p-10  ">
-                    <div className="flex flex-col items-center  mt-10   shadow-lg  ">
-                       <img className="  md:p-12 " src="/tradmark2.png" alt="Trade Mark" />
+            <div className="page-top">
+                <h1 className="md:text-5xl font-semibold text-3xl text-center mt-8">Setup Business In Oman With 100% Ownership</h1>
+                <h1 className="md:text-4xl font-semibold text-2xl text-center md:mb-8 mt-12 text-[#4CAF4F]">What We Provide For Our Valuable Customers</h1>
+                <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 justify-evenly p-10">
+                    <div className="flex flex-col items-center mt-10 shadow-lg">
+                        <img className="md:p-12" src="/tradmark2.png" alt="Trade Mark" />
                         <h2 className="md:text-2xl text-xl text-center text-red-800">Trade Mark</h2>
-                     </div>
-                     <div className="flex flex-col items-center   mt-10  shadow-lg ">
-                       <img className=" md:text-3xl text-2x  " src="/finalizaactivity.png" alt="Trade Mark" />
-                       <h2 className="md:text-2xl text-xl text-center text-red-800">Finalizing Activity</h2>
-                     </div>
-                      <div className="flex flex-col items-center p-10   mt-10 shadow-lg">
-                        <img className=" md:p-8" src="/documents.png" alt="Trade Mark" />
+                    </div>
+                    <div className="flex flex-col items-center mt-10 shadow-lg">
+                        <img className="md:text-3xl text-2x" src="/finalizaactivity.png" alt="Finalizing Activity" />
+                        <h2 className="md:text-2xl text-xl text-center text-red-800">Finalizing Activity</h2>
+                    </div>
+                    <div className="flex flex-col items-center p-10 mt-10 shadow-lg">
+                        <img className="md:p-8" src="/documents.png" alt="Clear Documentation" />
                         <h2 className="md:text-2xl text-xl text-center text-red-800">Clear Documentation</h2>
-                      </div>
-                       <div className="flex flex-col items-center p-10   mt-10  shadow-lg ">
-                         <img className=" mb-2" src="/goldenvisa.png" alt="Trade Mark" />
-                         <h2 className="md:text-2xl text-xl text-center text-red-800">Golden Visa</h2>
-                       </div>
+                    </div>
+                    <div className="flex flex-col items-center p-10 mt-10 shadow-lg">
+                        <img className="mb-2" src="/goldenvisa.png" alt="Golden Visa" />
+                        <h2 className="md:text-2xl text-xl text-center text-red-800">Golden Visa</h2>
+                    </div>
                 </div>
             </div>
-            <div className="flex justify-center  md:mt-32 mt-16">
-              <div>
+
+            <div className="flex justify-center md:mt-32 mt-16">
+                <div>
                     <h2 className="md:text-3xl font-medium text-2xl text-center mt-3">Calculate Cost</h2>
-                    <p className="md:text-2xl text-red-700 text-xl text-center mt-3 ">Please Fill Up The Below Requirements</p>
-             </div>
+                    <p className="md:text-2xl text-red-700 text-xl text-center mt-3">Please Fill Up The Below Requirements</p>
+                </div>
             </div>
 
             <div className="md:mt-16 mt-8">
-                
-                {/* Stepper Component */}
                 <div className="mx-auto shadow-md rounded-2xl pb-8 bg-white mt-10">
                     <div className="container horizontal mt-5 justify-center mx-auto md:px-64">
                         <Stepper steps={steps} currentStep={currentStep} />
@@ -118,10 +116,10 @@ const QuoteForm = () => {
                 </div>
             </div>
             <div>
-                <TestimonialSlider/>
+                <TestimonialSlider />
             </div>
 
-            <ToastContainer position="top-right " autoClose={5000} hideProgressBar={false} />
+            <ToastContainer position="top-right" autoClose={5000} hideProgressBar={false} />
         </>
     );
 };

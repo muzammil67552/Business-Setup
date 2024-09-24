@@ -4,9 +4,9 @@ const ServiceCard = () => {
     const ServiceCards = [
        {
         id:1,
-        title:"Providing trusted local sponsorship solutions in Oman for seamless business operations and legal compliance",
+        title:"Providing trusted Company Registration  in Oman for seamless business operations and legal compliance",
         img:"/home 3.jpg",
-        link:"/service/local-sponsorship",
+        link:"/service/company-registration",
        },
        {
         id:2,
