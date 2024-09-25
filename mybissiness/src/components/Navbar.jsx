@@ -73,7 +73,7 @@ const Navbar = () => {
             <nav className={`py-2 lg:px-14 px-4 transition-all duration-300 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-white" : ""}`}>
                 <div className='flex justify-between items-center text-base gap-8'>
                     <a href='#' className='flex items-center'>
-                    <img src='/logo 1.jpg' alt='Logo' className='w-28 h-28 rounded-full' />
+                    <img src='/logo.jpg' alt='Logo' className='w-28 h-28 rounded-full' />
 
                         <span className='text-[#263238] text-2xl font-semibold'>PETAC</span>
                     </a>

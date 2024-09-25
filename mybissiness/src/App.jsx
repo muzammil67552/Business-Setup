@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import AboutUs from './pages/AboutUs.jsx';
 // Resources Page
 import Blogs from './pages/Blogs';
+import ModernBusinessPage from './pages/ModernBusinessPage.jsx';
 // Services Pages
 import InvestCompany from './pages/InvestCompany';
 import LLCLicense from './pages/LLCLicense';
@@ -20,6 +21,7 @@ import Faq from './pages/Faq';
 import CompanyInfo from './components/CompanyInfo.jsx';
 import QuoteForm from './components/QuoteForm.jsx';
 import ScrollToTopButton from './components/ScrollToTopButton.jsx';
+import WhatsappChatIcons from './components/WhatsappChatIcons.jsx';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         {/* Blogs under Resources */}
         <Route path="/resources/blogs" element={<Blogs />} />
+        <Route path="/blogs/modern-business" element={<ModernBusinessPage />} />
+
         
         {/* Services Routes */}
         <Route path="/service/investor-company-formation" element={<InvestCompany />} />
@@ -48,6 +52,7 @@ function App() {
 
       </Routes>
       <CompanyInfo/>
+      <WhatsappChatIcons/>
       <Footer />
       <ScrollToTopButton/>
     </Router>

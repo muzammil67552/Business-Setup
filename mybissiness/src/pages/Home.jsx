@@ -18,11 +18,11 @@ const Home = () => {
   };
     return (
         <>
-    <div className="mt-48 md:mt-32">
+    <div className="mt-56 md:mt-32">
                 {/* Banner Section */}
        <div className="w-full h-screen relative">
                   <img
-                   src="/homebgcover1.webp" 
+                   src="/Banner Home King.png" 
                    alt="Hero Banner"
                   className="w-full h-full object-cover"
                    />
@@ -33,7 +33,7 @@ const Home = () => {
                      }`}
                           onMouseEnter={handleMouseEnter}
                           onMouseLeave={handleMouseLeave}
-                          onClick={handleMouseEnter}                   >
+                          onClick={handleMouseEnter} > 
                 <div className={`absolute inset-0 flex items-center justify-center transition-opacity duration-700 ${
                              hovered ? 'opacity-100' : 'opacity-0'
                            }`}
@@ -42,7 +42,7 @@ const Home = () => {
                              <h1 className="text-3xl md:text-6xl font-bold mb-4">
                                PETAC Business Consultant Oman
                              </h1>
-                             <p className="text-xl text-[#4D4D4D] mb-8 md:w-3/4 mx-auto">
+                             <p className="text-xl white mb-8 md:w-3/4 mx-auto">
                               SetUp Your Business In Oman With Low Investement. Paracha Enterprises Trading and Contracting LLC (PETAC)Your Trusted Partner for Business Success in Oman
                               One Stop Solution For All Your Business Needs.Get 100% Foreign OwnerShip Company Registered From Highly Experienced Consultant Now...  
                              </p>

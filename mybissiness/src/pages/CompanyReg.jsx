@@ -5,9 +5,10 @@ import TestimonialSlider from '../components/TestimonialSlider';
 
 const CompanyReg = () => {
   return (
-    <>
-               <div className="relative h-64 md:h-96 w-full md:mt-36 page-top group">
-                     <img src="/Banner CompReg Service.jpg" className="w-full h-full object-cover" alt="Banner" />
+    <>       
+            {/* Banner Section */}
+        <div className="relative h-64 md:h-96 w-full md:mt-36 page-top group">
+                     <img src="/banner for company reg swervice.png" className="w-full h-full object-cover" alt="Banner" />
 
                     {/* Heading to appear on image hover */}
                    <div className="absolute inset-0 bg-gray-800 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-1000 ease-out flex items-center justify-center">
@@ -15,9 +16,9 @@ const CompanyReg = () => {
                          Our Services
                         </h1>
                    </div>
-             </div>
+        </div>
              
-      <div className="bg-white px-4 md:px-16 lg:px-36 md:mt-32 mt-24">
+       <div className="bg-white px-4 md:px-16 lg:px-36 md:mt-24 mt-24">
         {/* Categories Section */}
         <div className="container mx-auto gap-6 flex flex-col md:flex-row">
           <div className="w-full md:w-3/12">

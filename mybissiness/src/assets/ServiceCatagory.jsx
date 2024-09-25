@@ -44,3 +44,25 @@ export const Categories = [
     // Add more categories as needed
   ];
   
+  export const BlogsCatagories = [
+    {
+      title:"How To Increase Your Profit In Business",
+      link:"service/How To Increase Your Profit In Business"
+    },
+    {
+      title:"How To Increase Your Profit In Business",
+      link:"service/How To Increase Your Profit In Business"
+    },
+    {
+      title:"How To Increase Your Profit In Business",
+      link:"service/How To Increase Your Profit In Business"
+    },
+    {
+      title:"How To Increase Your Profit In Business",
+      link:"service/How To Increase Your Profit In Business"
+    },
+    {
+      title:"How To Increase Your Profit In Business",
+      link:"service/How To Increase Your Profit In Business"
+    },
+  ]
