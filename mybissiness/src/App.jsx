@@ -4,24 +4,26 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
-import AboutUs from './pages/AboutUs.jsx';
+import AboutUs from './pages/AboutUs';
 // Resources Page
 import Blogs from './pages/Blogs';
-import ModernBusinessPage from './pages/ModernBusinessPage.jsx';
+import ModernBusinessPage from './pages/ModernBusinessPage';
 // Services Pages
 import InvestCompany from './pages/InvestCompany';
 import LLCLicense from './pages/LLCLicense';
-import CompanyReg from './pages/CompanyReg.jsx';
+import CompanyReg from './pages/CompanyReg';
 import ProServices from './pages/ProServices';
 import VisaClearance from './pages/VisaClearance';
-//Faq
+// Faq
 import Contact from './components/Contact';
 import Faq from './pages/Faq';
+import CompanyInfo from './components/CompanyInfo';
+import QuoteForm from './components/QuoteForm';
+import ScrollToTopButton from './components/ScrollToTopButton';
+import WhatsappChatIcons from './components/WhatsappChatIcons';
 
-import CompanyInfo from './components/CompanyInfo.jsx';
-import QuoteForm from './components/QuoteForm.jsx';
-import ScrollToTopButton from './components/ScrollToTopButton.jsx';
-import WhatsappChatIcons from './components/WhatsappChatIcons.jsx';
+// 404 Page
+import NotFound from './components/NotFound'; // Import a 404 page component (create if not exists)
 
 function App() {
   return (
@@ -34,27 +36,29 @@ function App() {
         {/* Blogs under Resources */}
         <Route path="/resources/blogs" element={<Blogs />} />
         <Route path="/blogs/modern-business" element={<ModernBusinessPage />} />
-
         
         {/* Services Routes */}
         <Route path="/service/investor-company-formation" element={<InvestCompany />} />
         <Route path="/service/llc-license-formation" element={<LLCLicense />} />
-        <Route path="/service/company-registration" element={<CompanyReg/>} />
+        <Route path="/service/company-registration" element={<CompanyReg />} />
         <Route path="/service/pro-service" element={<ProServices />} />
         <Route path="/service/oman-visa-clearance" element={<VisaClearance />} />
-        {/* Faq PAges */}
-        <Route path="/contact" element={<div className="mt-36 "><Contact /></div>} />
-        <Route path="/faq/technical" element={<Faq/>} />
-        {/* the button is in Only Navbar  */}
-        <Route path="/calculated-form" element={<QuoteForm/>}/>
-        
-        {/* Add other routes if necessary */}
 
+        {/* Faq Pages */}
+        <Route path="/contact" element={<div className="mt-36"><Contact /></div>} />
+        <Route path="/faq/technical" element={<Faq />} />
+
+        {/* Quote Form */}
+        <Route path="/calculated-form" element={<QuoteForm />} />
+        
+        {/* 404 Page */}
+        <Route path="*" element={<NotFound />} /> {/* This will catch all undefined routes */}
       </Routes>
-      <CompanyInfo/>
-      <WhatsappChatIcons/>
+      
+      <CompanyInfo />
+      <WhatsappChatIcons />
       <Footer />
-      <ScrollToTopButton/>
+      <ScrollToTopButton />
     </Router>
   );
 }
