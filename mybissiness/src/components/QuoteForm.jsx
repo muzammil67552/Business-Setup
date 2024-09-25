@@ -9,7 +9,7 @@ import TestimonialSlider from "./TestimonialSlider";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const QuoteForm = () => {
+function QuoteForm() {
     const [currentStep, setCurrentStep] = useState(1);
     const [userData, setUserData] = useState({
         businessCategory: "",
@@ -122,6 +122,6 @@ const QuoteForm = () => {
             <ToastContainer position="top-right" autoClose={5000} hideProgressBar={false} />
         </>
     );
-};
+}
 
 export default QuoteForm;

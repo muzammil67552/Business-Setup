@@ -10,43 +10,43 @@ const Blogs = () => {
             link: "/blogs/modern-business", // path are redirect from app.jsx
         },
         {
-            id: 1,
+            id: 2,
             title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
             img: "/modernbusinessblog.png",
             link: "/blogs/modern-business", // path are redirect from app.jsx
         },
         {
-            id: 1,
+            id: 2,
             title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
             img: "/modernbusinessblog.png",
             link: "/blogs/modern-business", // path are redirect from app.jsx
         },
         {
-            id: 1,
+            id: 3,
             title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
             img: "/modernbusinessblog.png",
             link: "/blogs/modern-business", // path are redirect from app.jsx
         },
         {
-            id: 1,
+            id: 4,
             title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
             img: "/modernbusinessblog.png",
             link: "/blogs/modern-business", // path are redirect from app.jsx
         },
         {
-            id: 1,
+            id: 5,
             title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
             img: "/modernbusinessblog.png",
             link: "/blogs/modern-business", // path are redirect from app.jsx
         },
         {
-            id: 1,
+            id: 6,
             title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
             img: "/modernbusinessblog.png",
             link: "/blogs/modern-business", // path are redirect from app.jsx
         },
         {
-            id: 1,
+            id: 7,
             title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
             img: "/modernbusinessblog.png",
             link: "/blogs/modern-business", // path are redirect from app.jsx
@@ -153,9 +153,7 @@ const Blogs = () => {
                               ))}
                             </ul>
                           </div>
-                        </div>
-
-                    
+                        </div>                   
                     </div>
                 </div>
             </div>
