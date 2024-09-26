@@ -81,7 +81,7 @@ const Home = () => {
                             </div>
                              <div className="w-full md:w-1/2 flex justify-center md:justify-end">
                                     <img src="/home 3.jpg"
-                                     className="w-3/4 md:w-full h-auto object-contain mr-2"
+                                     className=" w-full h-auto object-contain mr-2"
                                      />
                              </div>
                         </div>
@@ -98,7 +98,7 @@ const Home = () => {
                                 <div key={i} className="flex flex-col md:flex-row-reverse items-center justify-center gap-12 py-12 md:py-20">
                                     {/* Image Section */}
                                     <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-                                        <img src="/home 3.jpg" className="w-3/4 md:w-full h-auto object-contain mr-2" alt="Consulting" />
+                                        <img src="/home 3.jpg" className="w-full h-auto object-contain mr-2" alt="Consulting" />
                                     </div>
                                     {/* Text Section */}
                                     <div className="w-full md:w-1/2 text-center md:text-left px-4">
@@ -123,7 +123,7 @@ const Home = () => {
                         <h1 className="text-3xl md:text-5xl font-semibold text-[#4D4D4D] leading-tight pb-6">
                             The Things You Will Expect From Our Consultant
                         </h1>
-                        <p className="text-base md:text-xl mb-8">
+                        <p className=" text-xl mb-8">
                             Making the decision to hire a business consultant is a significant and courageous step for any individual or organization. A consultant is an expert in a specific field, offering guidance and valuable insights to a company or an individual. Expectations from business consultants in Mumbai are often high, and rightfully so. This role typically comes into play when, despite all the hard work, things arent progressing as desired—something that many businesses experience.
                             <br /><br />
                             The job of a consultant is, quite simply, to consult.  no magic formula or secret that makes one consultant more effective than another. What matters is their ability to provide practical solutions. Whether your business is just starting out or well-established, a capable business consultant can be the key to tightening up processes and driving the growth and improvement of your company.
@@ -131,49 +131,49 @@ const Home = () => {
                         <h1 className='text-2xl md:text-4xl font-semibold text-[#4D4D4D] leading-tight pb-6'>
                             1. Understanding Your Business
                         </h1>
-                        <p className='text-base md:text-xl mb-8'>
+                        <p className=' md:text-xl mb-8'>
                             Different business consulting firms have diverse strengths. When you are searching for a consultant, be sure to select one that has a profound knowledge of what you do and the specific challenges you are facing in your role.
                         </p>
 
                         <h1 className='text-2xl md:text-4xl font-semibold text-[#4D4D4D] leading-tight pb-6'>
                             2. A Familiarity With Your Business
                         </h1>
-                        <p className='text-base md:text-xl mb-8'>
+                        <p className='text-xl mb-8'>
                             Apart from the working knowledge of your industry, the business consultant you hire should know your business inside and out. This is often done through casual conversation and sometimes through numerous evaluations. A great consultant will examine the results of assessments and be able to deliver you a list of strengths and areas of weakness to target for progress.
                         </p>
 
                         <h1 className='text-2xl md:text-4xl font-semibold text-[#4D4D4D] leading-tight pb-6'>
                             3. Passion
                         </h1>
-                        <p className='text-base md:text-xl mb-8'>
+                        <p className=':text-xl mb-8'>
                             When choosing a business consultant, ensure they share your passion for success. Don’t settle for being treated as just another client. Your consultant should be as invested in your business as you are. Look for someone who is excited about your goals and ready to bring energy and expertise to every step. The right consultant will treat your success as their own. Expect nothing less than full commitment.
                         </p>
 
                         <h1 className='text-2xl md:text-4xl font-semibold text-[#4D4D4D] leading-tight pb-6'>
                             4. Challenges Your Leadership Skills
                         </h1>
-                        <p className='text-base md:text-xl mb-8'>
+                        <p className='text-xl mb-8'>
                             You should bring out the best in your consultant by combining your leadership skills with their expertise. A capable consultant will not simply tell you what to do, but will guide you in making the best choices by leveraging both your strengths and their knowledge. A talented consultant also knows when to offer inspiration and when to lead you to a better outcome through thoughtful questions and insightful statements. This collaboration ensures a more successful and fulfilling business outcome.
                         </p>
 
                         <h1 className='text-2xl md:text-4xl font-semibold text-[#4D4D4D] leading-tight pb-6'>
                             5. A Calculative Plan
                         </h1>
-                        <p className='text-base md:text-xl mb-8'>
+                        <p className='text-xl mb-8'>
                             Business consultants in Oman are renowned among many in the industry. Based on your input, assessments, and feedback, they should be able to develop and present a strategic plan of action that will help advance your business effectively.
                         </p>
 
                         <h1 className='text-2xl md:text-4xl font-semibold text-[#4D4D4D] leading-tight pb-6'>
                             6. Hold You Accountable
                         </h1>
-                        <p className='text-base md:text-xl mb-8'>
+                        <p className='text-xl mb-8'>
                             Expect your consultant to hold you accountable for keeping your promises and tasks. Everyone needs someone to hold them responsible. Any worthy consultant who sees you skipping promises, commitments, or tasks should sensitively have a vital conversation with you.
                         </p>
 
                         <h1 className='text-2xl md:text-4xl font-semibold text-[#4D4D4D] leading-tight pb-6'>
                             7. Measurable Results
                         </h1>
-                        <p className='text-base md:text-xl mb-8'>
+                        <p className='-xl mb-8'>
                             A genuine business consultant should be able to produce measurable, positive results aligned with your business goals. While overnight success is unrealistic, our services ensure that you are clearly directed towards achieving your objectives. Our approach is designed to provide actionable insights and strategic guidance, helping you make informed decisions and progressively move towards success. With our expertise, you will see tangible improvements and a clear path to growth, demonstrating that you are on the right track.
                         </p>
 
