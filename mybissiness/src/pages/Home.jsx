@@ -108,7 +108,7 @@ const Home = () => {
                                         <p className="text-xl mb-8">
                                             A business consulting firm based in Oman, providing expert guidance on strategic planning, operations, and market expansion. Specializing in helping companies grow within the regions dynamic business environment, the firm offers tailored solutions for sustainable success.
                                         </p>
-                                        <button className="btn-primary">
+                                        <button className="btn-primary mb-4">
                                             Learn More
                                         </button>
                                     </div>
@@ -118,7 +118,7 @@ const Home = () => {
                     </div>
                 </div>
                   {/* Content Or Text Section */}
-                <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen md:mt-24 ">
+                <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen md:mt-24 mt-8 ">
                     <div className="border-b shadow-md w-full md:text-left px-4">
                         <h1 className="text-3xl md:text-5xl font-semibold text-[#4D4D4D] leading-tight pb-6">
                             The Things You Will Expect From Our Consultant
@@ -131,7 +131,7 @@ const Home = () => {
                         <h1 className='text-2xl md:text-4xl font-semibold text-[#4D4D4D] leading-tight pb-6'>
                             1. Understanding Your Business
                         </h1>
-                        <p className=' md:text-xl mb-8'>
+                        <p className=' text-xl mb-8'>
                             Different business consulting firms have diverse strengths. When you are searching for a consultant, be sure to select one that has a profound knowledge of what you do and the specific challenges you are facing in your role.
                         </p>
 
@@ -145,7 +145,7 @@ const Home = () => {
                         <h1 className='text-2xl md:text-4xl font-semibold text-[#4D4D4D] leading-tight pb-6'>
                             3. Passion
                         </h1>
-                        <p className=':text-xl mb-8'>
+                        <p className='text-xl mb-8'>
                             When choosing a business consultant, ensure they share your passion for success. Don’t settle for being treated as just another client. Your consultant should be as invested in your business as you are. Look for someone who is excited about your goals and ready to bring energy and expertise to every step. The right consultant will treat your success as their own. Expect nothing less than full commitment.
                         </p>
 
@@ -173,7 +173,7 @@ const Home = () => {
                         <h1 className='text-2xl md:text-4xl font-semibold text-[#4D4D4D] leading-tight pb-6'>
                             7. Measurable Results
                         </h1>
-                        <p className='-xl mb-8'>
+                        <p className='text-xl mb-8'>
                             A genuine business consultant should be able to produce measurable, positive results aligned with your business goals. While overnight success is unrealistic, our services ensure that you are clearly directed towards achieving your objectives. Our approach is designed to provide actionable insights and strategic guidance, helping you make informed decisions and progressively move towards success. With our expertise, you will see tangible improvements and a clear path to growth, demonstrating that you are on the right track.
                         </p>
 
