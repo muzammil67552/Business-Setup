@@ -72,7 +72,7 @@ const Home = () => {
                                     </h2>
 
                                      {/* Paragraph */}
-                                    <p className="text-lg md:text-xl text-gray-700 mb-6 transition-all duration-500 hover:text-gray-900">
+                                    <p className="text-xl text-gray-700 mb-6 transition-all duration-500 hover:text-gray-900">
                                      PETAC offers expert business consultation services in Oman, providing tailored solutions for startups and established companies. We specialize in business setup, strategic planning, and navigating Omans regulatory landscape to ensure smooth operations and growth.
                                     </p>
                                     <button className="btn-primary">
@@ -105,7 +105,7 @@ const Home = () => {
                                         <h1 className="text-3xl md:text-5xl font-semi-bold text-[#4D4D4D] leading-tight pb-6">
                                             Grow Your Business in Oman With <span className="text-[#4CAF4F]">PETAC CONSULTANT</span>
                                         </h1>
-                                        <p className="text-base md:text-xl mb-8">
+                                        <p className="text-xl mb-8">
                                             A business consulting firm based in Oman, providing expert guidance on strategic planning, operations, and market expansion. Specializing in helping companies grow within the regions dynamic business environment, the firm offers tailored solutions for sustainable success.
                                         </p>
                                         <button className="btn-primary">
