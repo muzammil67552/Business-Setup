@@ -1,37 +1,37 @@
 import Contact from "../components/Contact";
-import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa"; // Importing icons from react-icons
+import {  FaWhatsappSquare, FaFacebook, FaInstagram } from "react-icons/fa"; // Importing icons from react-icons
 import { FaArrowAltCircleRight } from "react-icons/fa"; // Importing the arrow icon
 
 // Dummy data for team members
 const teamMembers = [
   {
-    name: "John Doe",
-    designation: "Software Engineer",
-    image: "https://via.placeholder.com/150",
+    name: "Mr: Mr: Umair Paracha",
+    designation: "Board Chairman",
+    image: "/asifprofile.jpg",
     socialLinks: {
-      linkedin: "#",
-      twitter: "#",
-      github: "#",
+      Facebook: "#",
+      Instagram: "#",
+      WhatsappSquare: " https://wa.me/96895259310",
     },
   },
   {
-    name: "Jane Smith",
-    designation: "UI/UX Designer",
-    image: "https://via.placeholder.com/150",
+    name: "Mr: SaifUllah Mahmmod",
+    designation: "Partner",
+    image: "/New Linkidn profile pic.png",
     socialLinks: {
-      linkedin: "#",
-      twitter: "#",
-      github: "#",
+      Facebook: "#",
+      Instagram: "#",
+      WhatsappSquare: "https://wa.me/96895259360",
     },
   },
   {
-    name: "David Wilson",
-    designation: "Project Manager",
-    image: "https://via.placeholder.com/150",
+    name: "Umer Feroz",
+    designation: "Partner",
+    image: "/testimonial 3.jpg",
     socialLinks: {
-      linkedin: "#",
-      twitter: "#",
-      github: "#",
+      Facebook: "#",
+      Instagram: "#",
+      WhatsappSquare: "https://wa.me/96877148859",
     },
   },
 ];
@@ -65,28 +65,28 @@ const AboutUs = () => {
               {/* Social Media Icons */}
               <div className="flex justify-center space-x-4 mt-4">
                 <a
-                  href={member.socialLinks.linkedin}
+                  href={member.socialLinks.Facebook}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:text-blue-700 transition-colors duration-300"
                 >
-                  <FaLinkedin size={24} />
+                  <FaFacebook size={24} />
                 </a>
                 <a
-                  href={member.socialLinks.twitter}
+                  href={member.socialLinks.Instagram}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:text-blue-500 transition-colors duration-300"
                 >
-                  <FaTwitter size={24} />
+                  <FaInstagram size={24} />
                 </a>
                 <a
-                  href={member.socialLinks.github}
-                  target="_blank"
+                  href={member.socialLinks.WhatsappSquare}
+                  target="_jump"
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:text-gray-900 transition-colors duration-300"
                 >
-                  <FaGithub size={24} />
+                  <FaWhatsappSquare size={24} />
                 </a>
               </div>
             </div>

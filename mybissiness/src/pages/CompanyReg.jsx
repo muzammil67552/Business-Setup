@@ -1,24 +1,37 @@
 /* eslint-disable react/no-unescaped-entities */
+import  { useState, useEffect } from 'react'; // Make sure this is included
 import { Categories } from '../assets/ServiceCatagory';  
 import { NavLink } from 'react-router-dom';
 import TestimonialSlider from '../components/TestimonialSlider';
+import Modal from '../components/Modal';
 
 const CompanyReg = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowModal(true);
+    }, 10000); // Show modal after 10 seconds
+
+    return () => clearTimeout(timer); // Cleanup timer on unmount
+  }, []);
+
+  const closeModal = () => setShowModal(false);
+
   return (
     <>       
-            {/* Banner Section */}
-        <div className="relative h-64 md:h-96 w-full md:mt-36 page-top group">
-                     <img src="/main banner for company reg.png" className="w-full h-full " alt="Banner" />
-
-                    {/* Heading to appear on image hover */}
-                   <div className="absolute inset-0 bg-gray-800 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-1000 ease-out flex items-center justify-center">
-                        <h1 className="text-white text-3xl md:text-5xl font-bold opacity-0 group-hover:opacity-100 transition-all duration-1000 ease-out">
-                         Our Services
-                        </h1>
-                   </div>
+      {/* Banner Section */}
+      <div className="relative h-64 md:h-96 w-full md:mt-36 page-top group">
+        <img src="/main banner for company reg.png" className="w-full h-full" alt="Banner" />
+        {/* Heading to appear on image hover */}
+        <div className="absolute inset-0 bg-gray-800 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-1000 ease-out flex items-center justify-center">
+          <h1 className="text-white text-3xl md:text-5xl font-bold opacity-0 group-hover:opacity-100 transition-all duration-1000 ease-out">
+            Our Services
+          </h1>
         </div>
-             
-       <div className="bg-white px-4 md:px-16 lg:px-36 md:mt-24 mt-24">
+      </div>
+      
+      <div className="bg-white px-4 md:px-16 lg:px-36 md:mt-24 mt-24">
         {/* Categories Section */}
         <div className="container mx-auto gap-6 flex flex-col md:flex-row">
           <div className="w-full md:w-3/12">
@@ -51,7 +64,7 @@ const CompanyReg = () => {
             </p>
 
             <h1 className="md:text-5xl text-3xl font-semibold mt-10">Our Services: Tailored Solutions for Business Success</h1>
-            <p className=" text-gray-600 text-xl mt-10">
+            <p className="text-gray-600 text-xl mt-10">
               Curious about what we can do for you? PETAC offers a range of services designed to meet the needs of businesses at every stage of their journey. From company formation and legal document preparation to financial consultation and ongoing compliance management, our services are customized to suit your business needs. We simplify what can often seem like a complicated process, ensuring you can focus on your core business operations while we handle the paperwork and legalities. Let us take care of the details, so you can concentrate on growing your business.
             </p>
 
@@ -109,13 +122,19 @@ const CompanyReg = () => {
 
           <NavLink to="/contact">
             <button className="md:text-3xl text-2xl px-32 w-full overflow-hidden md:py-6 py-2 bg-[#4CAF4F] text-white rounded-lg transition-transform transform hover:scale-110 hover:bg-white hover:text-[#4CAF4F] shadow-lg hover:shadow-2xl duration-500 ease-in-out">
-              Contact Us For More
+              Contact Us
             </button>
           </NavLink>
         </div>
       </div>
+
+      <Modal
+        showModal={showModal}
+        closeModal={closeModal}
+        imageSrc="/comp Reg Modal.jpg"
+      />
     </>
   );
-};
+}
 
-export default CompanyReg;
+export default CompanyReg; // Ensure the export statement is at the top level

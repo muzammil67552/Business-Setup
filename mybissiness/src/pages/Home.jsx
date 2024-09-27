@@ -94,11 +94,78 @@ const Home = () => {
                     <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen">
                         <Carousel className="w-full mx-auto">
                             {/* Add Your business in carousel */}
-                            {Array(3).fill("").map((_, i) => (
+                            {/* No 01 */}
+                            {Array(1).fill("").map((_, i) => (
                                 <div key={i} className="flex flex-col md:flex-row-reverse items-center justify-center gap-12 py-12 md:py-20">
                                     {/* Image Section */}
                                     <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-                                        <img src="/home 3.jpg" className="w-full h-auto object-contain mr-2" alt="Consulting" />
+                                        <img src="/main Garments.jpg" className="w-full h-auto object-contain mr-2" alt="Consulting" />
+                                    </div>
+                                    {/* Text Section */}
+                                    <div className="w-full md:w-1/2 text-center md:text-left px-4">
+                                        <h1 className="text-3xl md:text-5xl font-semi-bold text-black leading-tight pb-6">
+                                        Garments and Boutique Services Get Consulting from <span className="text-[#4CAF4F]">PETAC EXPERT</span>
+                                        </h1>
+                                        <p className="text-xl mb-8">
+                                        PETAC Consultant in Oman offers expert guidance for setting up Garments and Boutique businesses. From registration to market entry, we provide tailored solutions to launch your fashion venture smoothly. Let us turn your fashion ideas into reality with our support and strategy.
+                                        </p>
+                                        <button className="btn-primary mb-24">
+                                            Learn More
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                            ))}
+                             {/* No 02 */}
+                            {Array(1).fill("").map((_, i) => (
+                                <div key={i} className="flex flex-col md:flex-row-reverse items-center justify-center gap-12 py-12 md:py-20">
+                                    {/* Image Section */}
+                                    <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+                                        <img src="/man mobile shope.jpg" className="w-full h-auto object-contain mr-2" alt="Consulting" />
+                                    </div>
+                                    {/* Text Section */}
+                                    <div className="w-full md:w-1/2 text-center md:text-left px-4">
+                                        <h1 className="text-3xl md:text-5xl font-semi-bold text-black leading-tight pb-6">
+                                        Mobile and Hardware Shop Services <span className="text-[#4CAF4F]">PETAC EXPERT</span>
+                                        </h1>
+                                        <p className="text-xl mb-8">
+                                        PETAC Consultant in Oman provides expert support for establishing Mobile and Hardware shops. From licensing to operational setup, we ensure a seamless process to launch your tech business successfully with the right guidance and strategy.
+                                        </p>
+                                        <button className="btn-primary mb-24">
+                                            Learn More
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                            ))}
+                             {/* No 03 */}
+                            {Array(1).fill("").map((_, i) => (
+                                <div key={i} className="flex flex-col md:flex-row-reverse items-center justify-center gap-12 py-12 md:py-20">
+                                    {/* Image Section */}
+                                    <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+                                        <img src="/man carpentery.jpg" className="w-full h-auto object-contain mr-2" alt="Consulting" />
+                                    </div>
+                                    {/* Text Section */}
+                                    <div className="w-full md:w-1/2 text-center md:text-left px-4">
+                                        <h1 className="text-3xl md:text-5xl font-semi-bold text-black leading-tight pb-6">
+                                            Carpentry and Workshop Services Get Consultant Form <span className="text-[#4CAF4F]">PETAC EXPERT</span>
+                                        </h1>
+                                        <p className="text-xl mb-8">
+                                            PETAC Consultant in Oman offers specialized support for setting up Carpentry and Workshop businesses. We guide you through the entire process, from licensing to setup, ensuring your workshop runs efficiently with our tailored business solutions.
+                                        </p>
+                                        <button className="btn-primary mb-24">
+                                            Learn More
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                            ))}
+                              {/* No 04 */}
+                            {Array(1).fill("").map((_, i) => (
+                                <div key={i} className="flex flex-col md:flex-row-reverse items-center justify-center gap-12 py-12 md:py-20">
+                                    {/* Image Section */}
+                                    <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+                                        <img src="/home 2.jpg" className="w-full h-auto object-contain mr-2" alt="Consulting" />
                                     </div>
                                     {/* Text Section */}
                                     <div className="w-full md:w-1/2 text-center md:text-left px-4">
@@ -108,12 +175,13 @@ const Home = () => {
                                         <p className="text-xl mb-8">
                                             A business consulting firm based in Oman, providing expert guidance on strategic planning, operations, and market expansion. Specializing in helping companies grow within the regions dynamic business environment, the firm offers tailored solutions for sustainable success.
                                         </p>
-                                        <button className="btn-primary mb-4">
+                                        <button className="btn-primary mb-24">
                                             Learn More
                                         </button>
                                     </div>
-                                </div>
+                                </div>                                
                             ))}
+                            
                         </Carousel>
                     </div>
                 </div>
