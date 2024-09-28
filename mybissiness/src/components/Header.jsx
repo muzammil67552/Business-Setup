@@ -8,7 +8,7 @@ const Header = () => {
         {/* Email Section (hidden on mobile, visible on md and lg screens) */}
         <div className="hidden md:flex items-center space-x-2">
           <FaEnvelope />
-          <a href='mailto:petac160@gmail.com' className='text-base'>petac160@gmail.com</a>
+          <a href='mailto:petac160@gmail.com' target='__jump' className='text-base'>petac160@gmail.com</a>
         </div>
 
         {/* Social Media Icons */}
