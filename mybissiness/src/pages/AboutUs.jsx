@@ -5,7 +5,7 @@ import { FaArrowAltCircleRight } from "react-icons/fa"; // Importing the arrow i
 // Dummy data for team members
 const teamMembers = [
   {
-    name: "Mr: Mr: Umair Paracha",
+    name: "Mr: Umair Paracha",
     designation: "Board Chairman",
     image: "/asifprofile.jpg",
     socialLinks: {

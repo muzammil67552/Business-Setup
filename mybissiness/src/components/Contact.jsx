@@ -2,7 +2,7 @@
 import { IoCall } from "react-icons/io5";
 import { FaEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaYoutube, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 
 const Contact = () => {
@@ -38,10 +38,10 @@ const Contact = () => {
                   </div>
   
                   <div className='flex space-x-6 mt-6 text-xl md:mb-0'>
-                      <a href=''><FaFacebook className="hover:text-blue-500 cursor-pointer h-7 w-7" /></a>
-                      <a href=''><FaTwitter className="hover:text-blue-500 cursor-pointer h-7 w-7" /></a>
-                      <a href=''><FaInstagram className="hover:text-pink-500 cursor-pointer h-7 w-7" /></a>
-                      <a href=''><FaLinkedin className="hover:text-blue-600 cursor-pointer h-7 w-7" /></a>
+                      <a href='https://www.facebook.com/profile.php?id=61564869346567' target="__jump"><FaFacebook className="hover:text-blue-500 cursor-pointer h-7 w-7" /></a>
+                      <a href='https://www.youtube.com/channel/UC_ZBMmpDwjqNPbWlOsVh1Jw' target="__jump"><FaYoutube className="hover:text-blue-500 cursor-pointer h-7 w-7" /></a>
+                      <a href='https://www.instagram.com/petac54' target="__jump"><FaInstagram className="hover:text-pink-500 cursor-pointer h-7 w-7" /></a>
+                      <a href='https://www.linkedin.com/in/petac-petac-537285330/' target="__jump"><FaLinkedin className="hover:text-blue-600 cursor-pointer h-7 w-7" /></a>
                   </div>
               </div>
   
@@ -90,7 +90,7 @@ const Contact = () => {
                       </div>
                       <div className='inline-flex space-x-3 items-center'>
                           <FaEnvelope className='text-gray-700 text-2xl md:text-4xl'/>
-                          <span className="md:text-2xl text-xl">info@gmail.com</span>
+                          <span className="md:text-2xl text-xl">petac160@gmail.com</span>
                       </div>
                       <div className='inline-flex space-x-3 items-center'>
                           <FaLocationDot className='text-gray-700-300 text-2xl md:text-4xl'/>
