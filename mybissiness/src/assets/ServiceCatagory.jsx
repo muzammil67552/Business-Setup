@@ -50,8 +50,8 @@ export const Categories = [
       link:"service/How To Increase Your Profit In Business"
     },
     {
-      title:"How To Increase Your Profit In Business",
-      link:"service/How To Increase Your Profit In Business"
+      title:"Can Foreigner Start Business in Oman",
+      link:"/blogs/business-Foreigner-setup-oman"
     },
     {
       title:"How To Increase Your Profit In Business",

@@ -8,6 +8,7 @@ import AboutUs from './pages/AboutUs';
 // Resources Page
 import Blogs from './pages/Blogs';
 import BlogBusinessSetOman from './pages/BlogBusinessSetOman';
+import BlogForeignerCanBusiness from './pages/BlogForeignerCanBusiness';
 // Services Pages
 import InvestCompany from './pages/InvestCompany';
 import LLCLicense from './pages/LLCLicense';
@@ -36,6 +37,7 @@ function App() {
         {/* Blogs under Resources */}
         <Route path="/resources/blogs" element={<Blogs />} />
         <Route path="/blogs/business-setup-oman" element={<BlogBusinessSetOman />} />
+        <Route path="/blogs/business-Foreigner-setup-oman" element={<BlogForeignerCanBusiness />} />
         
         {/* Services Routes */}
         <Route path="/service/investor-company-formation" element={<InvestCompany />} />

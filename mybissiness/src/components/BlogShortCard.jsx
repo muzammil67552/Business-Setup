@@ -1,4 +1,4 @@
-import { BlogsCatagories } from '../assets/ServiceCatagory'
+import { BlogsCatagories } from '../assets/ServiceCatagory'//data are fetch from assets/ServiceCatagory
 import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
@@ -47,26 +47,28 @@ const BlogShortCard = () => {
                           </div>
                           {/* Recent Blog Section */}
                                <div className="border w-full md:mt-46 mt-10  py-4 space-y-8 bg-gray-100">
-                                   <div className='p-2 border flex  mx-2 shadow-md bg-white'>
+                                   <div className='p-2 border flex  mx-2 shadow-md bg-white rounded-lg'>
                                        <h1 className='text-xl font-semibold text-black '>Recent Blogs</h1>
                                    </div>
-
-                                   <div className='flex flex-row items-start mx-4 space-x-4 p-4 bg-white     shadow-md rounded-xl'>
+                                   <NavLink to="/blogs/business-setup-oman">                                 
+                                    <div className='flex flex-row items-start mx-4 space-x-4 p-4 bg-white shadow-md rounded-xl mt-5'>
                                       <img src="/modernbusinessblog.png" className="rounded-xl h-20 w-20 object-cover" alt="Blog Thumbnail" />
                                       <div className='flex flex-col'>
-                                        <h2 className=''>How To Start Modern Business</h2>
+                                        <h2 className='hover:text-red-800'>How To Start Modern Business</h2>
                                         <span className='text-sm text-gray-500 mt-2 '>10th September 2024</span>
                                       </div>
                                     </div>
-
-                                    <div className='flex flex-row items-start mx-4 space-x-4 p-4 bg-white     shadow-md rounded-xl'>
-                                      <img src="/modernbusinessblog.png" className="rounded-xl h-20 w-20 object-cover" alt="Blog Thumbnail" />
-                                      <div className='flex flex-col'>
-                                        <h2 className=''>How To Start Modern Business</h2>
+                                    </NavLink>
+ 
+                                     <NavLink to="/blogs/business-Foreigner-setup-oman">
+                                    <div className='flex flex-row items-start mx-4 space-x-4 p-4 bg-white shadow-md rounded-xl mt-5'>
+                                      <img src="/Comp Formation.jpg" className="rounded-xl h-20 w-20 object-cover" alt="Blog Thumbnail" />
+                                      <div className='flex flex-col'>        
+                                        <h2 className='hover:text-red-800'>Can Foreigners Start Business in Oman</h2>
                                         <span className='text-sm text-gray-500 mt-2 '>10th September 2024</span>
                                       </div>
-                                    </div>
-
+                                    </div> 
+                                    </NavLink>
                                     <div className='flex flex-row items-start mx-4 space-x-4 p-4 bg-white     shadow-md rounded-xl'>
                                       <img src="/modernbusinessblog.png" className="rounded-xl h-20 w-20 object-cover" alt="Blog Thumbnail" />
                                       <div className='flex flex-col'>

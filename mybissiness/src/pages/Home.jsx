@@ -80,7 +80,7 @@ const Home = () => {
                                     </button>
                             </div>
                              <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-                                    <img src="/public/home hero.jpg"
+                                    <img src="/home hero.jpg"
                                      className=" w-full h-auto object-contain mr-2"
                                      />
                              </div>

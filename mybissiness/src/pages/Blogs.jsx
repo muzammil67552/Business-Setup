@@ -12,9 +12,9 @@ const Blogs = () => {
         },
         {
             id: 2,
-            title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
-            img: "/modernbusinessblog.png",
-            link: "/blogs/business-setup-oman", // path are redirect from app.jsx
+            title:"Discover how PETAC helps foreigners start and grow businesses in Oman with expert guidance on LLCs, JSCs, and branch offices.",
+            img: "/Comp Formation.jpg",
+            link: "/blogs/business-Foreigner-setup-oman", // path are redirect from app.jsx
         },
         {
             id: 2,
@@ -88,7 +88,7 @@ const Blogs = () => {
                                         className="mx-auto relative mb-24 cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
                                     >
                                         <img src={BlogsCards.img} className="rounded-xl" alt="" />
-                                        <div className="text-center px-4 py-8 bg-white shadow-2xl rounded-md md:w-3/4 mx-auto absolute left-0 right-0 -bottom-20">
+                                        <div className="text-center px-4 md:py-8 py-2 bg-white shadow-2xl rounded-md md:w-3/4 mx-auto absolute left-0 right-0 -bottom-20">
                                             <h3 className="mb-3 text-[#4D4D4D] font-semibold md:text-medium">
                                                 {BlogsCards.title}
                                             </h3>

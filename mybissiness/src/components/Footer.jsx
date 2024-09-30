@@ -11,9 +11,9 @@ const Footer = () => {
                     {/* Logo and Title Section */}
                     <a href='#' className='flex items-center space-x-4'>
                         <img 
-                            src='/main logo 1.png' 
+                            src='/logo.jpg' 
                             alt='Logo' 
-                            className='w-20 h-20 rounded-full bg-gray-900 p-2'
+                            className='w-28 h-24 rounded-full bg-gray-900 p-2'
                         />
                         <h1 className='md:text-2xl text-xl font-semibold mb-2'>PARACHA ENTERPRISE & CONTRACTING LLC</h1>
                     </a>
