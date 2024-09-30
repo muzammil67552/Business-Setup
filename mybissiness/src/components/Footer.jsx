@@ -3,28 +3,28 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className='bg-gray-900 text-white mt-36'>
+        <footer className='bg-gray-900 text-white mt-36 md:px-24 '>
            
             {/* Main footer section */}
-            <div className='max-w-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 px-6 py-16 text-base md:text-xl mx-12'>
+            <div className='max-w-screen grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 px-6 py-16 text-base md:text-xl '>
                 <div>
                     {/* Logo and Title Section */}
                     <a href='#' className='flex items-center space-x-4'>
                         <img 
-                            src='/logo.jpg' 
+                            src='/Logo 1.png' 
                             alt='Logo' 
-                            className='w-28 h-24 rounded-full bg-gray-900 p-2'
+                            className='w-28 h-28 rounded-md bg-gray-900 p-2'
                         />
-                        <h1 className='md:text-2xl text-xl font-semibold mb-2'>PARACHA ENTERPRISE & CONTRACTING LLC</h1>
+                        <h1 className='md:text-2xl text-xl font-semibold mb-2 w-full'>PARACHA ENTERPRISE & CONTRACTING LLC</h1>
                     </a>
-                    <p className='mx-5 mt-2 text-base cursor-pointer hover:text-gray-300 duration-300'>
+                    <p className='mx-5 mt-2 text-base cursor-pointer hover:text-gray-300 duration-300 w-full'>
                         Al Badi Building Near Lulu Center Ruwi Muscat<span className='text-2xl text-[#4CAF4F] mx-5 cursor-pointer hover:text-gray-300 duration-300'>Oman</span>
                     </p>
                     <a href='mailto:petac160@gmail.com' target='__jump' className='mx-5 mt-2 text-base cursor-pointer hover:text-gray-300 duration-300'>petac160@gmail.com</a>
                     <p className='mx-5 mt-2 text-base cursor-pointer hover:text-gray-300 duration-300'>0096895259360</p>
                 </div>
 
-                <div className='md:mx-0 mx-4'>
+                <div className='md:mx-24 w-full mx-4'>
                     <h1 className='md:text-2xl text-xl font-semibold mb-2'>Business Information</h1>
                     <p className=' mt-2 text-base cursor-pointer hover:text-gray-300 duration-300'>Services</p>
                     <p className=' mt-2 text-base cursor-pointer hover:text-gray-300 duration-300'>Support</p>
@@ -33,7 +33,7 @@ const Footer = () => {
                     <p className=' mt-2 text-base cursor-pointer hover:text-gray-300 duration-300'>Privacy Policy</p>
                 </div>
 
-                <div className='md:mx-0 mx-4'>
+                <div className='md:mx-24 w-full mx-4'>
                     <h1 className='md:text-2xl text-xl font-semibold mb-2'>Useful Links</h1>
                     <ul>
                         <NavLink to="/">
@@ -51,7 +51,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                <div className='md:mx-0 mx-4'>
+                <div className='md:mx-20 w-full mx-4'>
                     <h1 className='md:text-2xl text-xl font-semibold mb-2'>Our Team</h1>
                     <div className="flex flex-col">
                     <a href="https://wa.me/96895259310" target="__jump" className="mt-2 text-base cursor-pointer hover:text-gray-400 duration-300">
