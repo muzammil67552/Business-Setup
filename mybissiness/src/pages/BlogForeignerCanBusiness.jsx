@@ -7,7 +7,7 @@ const BlogForeignerCanBusiness = () => {
       <div className="relative w-full h-[90vh] bg-gray-200 overflow-hidden">
         {/* Image with hover animation */}
         <img
-          src="/Banner Foriegner business in oman.webp"
+          src="/Blogs Images/Banner Foriegner business in oman.webp"
           className="w-full h-full object-cover opacity-70 transition-transform duration-500 ease-in-out transform hover:scale-105 hover:opacity-80"
         />
         {/* Overlay and text */}

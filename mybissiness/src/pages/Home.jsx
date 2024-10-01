@@ -20,9 +20,9 @@ const Home = () => {
         <>
     <div className="mt-56 md:mt-32">
                 {/* Banner Section */}
-       <div className="w-full h-screen relative">
+       <div className="w-full h-screen relative mt-40">
                   <img
-                   src="/Banner Home King.png" 
+                   src="/home main.jpg" 
                    alt="Hero Banner"
                   className="w-full h-full object-cover"
                    />
@@ -55,7 +55,7 @@ const Home = () => {
          </div>
 
                 {/* Content Section */}
-                <div className="w-full md:mt-10 mt-4">
+                <div className="w-full md:mt-6 mt-4">
                     <div className="w-full flex flex-col items-center justify-center">
                         <div className="movingTexts w-full flex flex-row overflow-hidden py-4">
                             <h1 className="text-gray-800 md:text-7xl text-4xl ">
@@ -64,8 +64,13 @@ const Home = () => {
                             </h1>
                         </div>
 
-                        <div className="w-full px-5 md:px-20 flex flex-col md:flex-row justify-between items-center md:mt-16 border-b shadow-md">
-                           <div className="w-full md:w-1/2 md:pr-4 mb-6 md:mb-0">
+                        <div className="w-full px-5 md:px-20 flex flex-col md:flex-row justify-between items-center md:mt-16 border-b shadow-md md:space-x-2">
+                             <div className="w-full md:w-1/2 flex justify-center md:justify-end">
+                                    <img src="/home hero.jpg"
+                                     className=" w-full h-auto object-contain mr-2"
+                                     />
+                             </div>
+                             <div className="w-full md:w-1/2 md:pr-4 mb-6 md:mb-0">
                                     {/* Heading */}
                                     <h2 className="text-3xl md:text-5xl font-semi-bold mb-6 text-gray-800 transition-transform duration-500 ease-in-out transform hover:scale-105">
                                      Grow and Set Your Business In Oman
@@ -79,18 +84,13 @@ const Home = () => {
                                       Learn More
                                     </button>
                             </div>
-                             <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-                                    <img src="/home hero.jpg"
-                                     className=" w-full h-auto object-contain mr-2"
-                                     />
-                             </div>
                         </div>
 
                     </div>
                 </div>
 
                 {/* Carousel Section */}
-                <div className="mt-12  border-b">
+                <div className="md:mt-12 mt-8  border-b">
                     <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen">
                         <Carousel className="w-full mx-auto">
                             {/* Add Your business in carousel */}
@@ -99,7 +99,7 @@ const Home = () => {
                                 <div key={i} className="flex flex-col md:flex-row-reverse items-center justify-center gap-12 py-12 md:py-20">
                                     {/* Image Section */}
                                     <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-                                        <img src="/service garments.jpg" className="w-full h-full object-contain md:mr-1 md:ml-0" alt="Consulting" />
+                                        <img src="/Garments/service garments.png" className="w-full h-full object-contain md:mr-1 md:ml-0" alt="Consulting" />
                                     </div>
                                     {/* Text Section */}
                                     <div className="w-full md:w-1/2 text-center md:text-left px-4">
@@ -121,7 +121,7 @@ const Home = () => {
                                 <div key={i} className="flex flex-col md:flex-row-reverse items-center justify-center gap-12 py-12 md:py-20">
                                     {/* Image Section */}
                                     <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-                                        <img src="/service mob and hard.png" className="w-full h-full object-contain md:mr-1 md:ml-0" alt="Consulting" />
+                                        <img src="/Mobile Hardwere and Softere/service mob and hard.png" className="w-full h-full object-contain md:mr-1 md:ml-0" alt="Consulting" />
                                     </div>
                                     {/* Text Section */}
                                     <div className="w-full md:w-1/2 text-center md:text-left px-4">
@@ -143,7 +143,7 @@ const Home = () => {
                                 <div key={i} className="flex flex-col md:flex-row-reverse items-center justify-center gap-12 py-12 md:py-20">
                                     {/* Image Section */}
                                     <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-                                        <img src="/Carpentry Service.jpg" className="w-full h-full object-contain md:mr-1 md:ml-0" alt="Consulting" />
+                                        <img src="/Carpentery/Carpentry Service.jpg" className="w-full h-full object-contain md:mr-1 md:ml-0" alt="Consulting" />
                                     </div>
                                     {/* Text Section */}
                                     <div className="w-full md:w-1/2 text-center md:text-left px-4">
@@ -165,7 +165,7 @@ const Home = () => {
                                 <div key={i} className="flex flex-col md:flex-row-reverse items-center justify-center gap-12 py-12 md:py-20">
                                     {/* Image Section */}
                                     <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-                                        <img src="/service company Registration.webp" className="w-full h-full object-contain md:mr-1 md:ml-0 " alt="Consulting" />
+                                        <img src="/Company Formation/company  formation.jpg" className="w-full h-full object-contain md:mr-1 md:ml-0 " alt="Consulting" />
                                     </div>
                                     {/* Text Section */}
                                     <div className="w-full md:w-1/2 text-center md:text-left px-4">
@@ -186,7 +186,7 @@ const Home = () => {
                                 <div key={i} className="flex flex-col md:flex-row-reverse items-center justify-center gap-12 py-12 md:py-20">
                                     {/* Image Section */}
                                     <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-                                        <img src="/LLC Licience.webp" className="w-full h-full object-contain md:mr-1 md:ml-0 " alt="Consulting" />
+                                        <img src="/LLC Lisence Formation/LLC Licience.webp" className="w-full h-full object-contain md:mr-1 md:ml-0 " alt="Consulting" />
                                     </div>
                                     {/* Text Section */}
                                     <div className="w-full md:w-1/2 text-center md:text-left px-4">
@@ -207,7 +207,7 @@ const Home = () => {
                                 <div key={i} className="flex flex-col md:flex-row-reverse items-center justify-center gap-12 py-12 md:py-20 ">
                                     {/* Image Section */}
                                     <div className="w-full md:w-1/2 flex justify-center md:justify-end m">
-                                        <img src="/servicepro.webp" className="w-full h-full object-contain md:mr-1 md:ml-0 " alt="Consulting" />
+                                        <img src="/Pro Services/servicepro.webp" className="w-full h-full object-contain md:mr-1 md:ml-0 " alt="Consulting" />
                                     </div>
                                     {/* Text Section */}
                                     <div className="w-full md:w-1/2 text-center md:text-left px-4">

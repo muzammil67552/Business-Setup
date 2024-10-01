@@ -52,7 +52,7 @@ const BlogShortCard = () => {
                                    </div>
                                    <NavLink to="/blogs/business-setup-oman">                                 
                                     <div className='flex flex-row items-start mx-4 space-x-4 p-4 bg-white shadow-md rounded-xl mt-5'>
-                                      <img src="/modernbusinessblog.png" className="rounded-xl h-20 w-20 object-cover" alt="Blog Thumbnail" />
+                                      <img src="/Blogs Images/modernbusinessblog.png" className="rounded-xl h-20 w-20 object-cover" alt="Blog Thumbnail" />
                                       <div className='flex flex-col'>
                                         <h2 className='hover:text-red-800'>How To Start Modern Business</h2>
                                         <span className='text-sm text-gray-500 mt-2 '>10th September 2024</span>
@@ -62,7 +62,7 @@ const BlogShortCard = () => {
  
                                      <NavLink to="/blogs/business-Foreigner-setup-oman">
                                     <div className='flex flex-row items-start mx-4 space-x-4 p-4 bg-white shadow-md rounded-xl mt-5'>
-                                      <img src="/Comp Formation.jpg" className="rounded-xl h-20 w-20 object-cover" alt="Blog Thumbnail" />
+                                      <img src="/Blogs Images/Comp Formation.jpg" className="rounded-xl h-20 w-20 object-cover" alt="Blog Thumbnail" />
                                       <div className='flex flex-col'>        
                                         <h2 className='hover:text-red-800'>Can Foreigners Start Business in Oman</h2>
                                         <span className='text-sm text-gray-500 mt-2 '>10th September 2024</span>
@@ -70,7 +70,7 @@ const BlogShortCard = () => {
                                     </div> 
                                     </NavLink>
                                     <div className='flex flex-row items-start mx-4 space-x-4 p-4 bg-white     shadow-md rounded-xl'>
-                                      <img src="/modernbusinessblog.png" className="rounded-xl h-20 w-20 object-cover" alt="Blog Thumbnail" />
+                                      <img src="/Blogs Images/modernbusinessblog.png" className="rounded-xl h-20 w-20 object-cover" alt="Blog Thumbnail" />
                                       <div className='flex flex-col'>
                                         <h2 className=''>How To Start Modern Business</h2>
                                         <span className='text-sm text-gray-500 mt-2 '>10th September 2024</span>

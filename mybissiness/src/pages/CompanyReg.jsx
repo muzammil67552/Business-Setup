@@ -22,11 +22,11 @@ const CompanyReg = () => {
     <>       
       {/* Banner Section */}
       <div className="relative h-64 md:h-96 w-full md:mt-36 page-top group">
-        <img src="/main banner for company reg.png" className="w-full h-full" alt="Banner" />
+        <img src="/Company Formation/company formation banner.jpg" className="w-full h-full" alt="Banner" />
         {/* Heading to appear on image hover */}
         <div className="absolute inset-0 bg-gray-800 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-1000 ease-out flex items-center justify-center">
-          <h1 className="text-white text-3xl md:text-5xl font-bold opacity-0 group-hover:opacity-100 transition-all duration-1000 ease-out">
-            Our Services
+          <h1 className="text-white text-3xl md:text-5xl font-bold opacity-0 group-hover:opacity-100 transition-all duration-1000 ease-out text-center">
+            Get Company Registration And Formation In Oman
           </h1>
         </div>
       </div>
@@ -51,7 +51,7 @@ const CompanyReg = () => {
           </div>
 
           <div className="w-full md:w-9/12 mt-6 md:mt-0 relative ml-2">
-            <img src="/home 3.jpg" className="h-5/6 w-full md:m-0 -ml-2" alt="Hero" />
+            <img src="mybissiness/public/Company Formation/company  formation.jpg" className="h-5/6 w-full md:m-0 -ml-2" alt="Hero" />
           </div>
         </div>
 
@@ -131,7 +131,7 @@ const CompanyReg = () => {
       <Modal
         showModal={showModal}
         closeModal={closeModal}
-        imageSrc="/comp Reg Modal.jpg"
+        imageSrc="/Company Formation/comp Reg Modal.jpg"
       />
     </>
   );

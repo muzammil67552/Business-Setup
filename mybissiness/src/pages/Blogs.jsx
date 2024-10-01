@@ -7,58 +7,36 @@ const Blogs = () => {
         {
             id: 1,
             title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
-            img: "/modernbusinessblog.png",
+            img: "/Blogs Images/modernbusinessblog.png",
             link: "/blogs/business-setup-oman", // path are redirect from app.jsx
         },
         {
             id: 2,
             title:"Discover how PETAC helps foreigners start and grow businesses in Oman with expert guidance on LLCs, JSCs, and branch offices.",
-            img: "/Comp Formation.jpg",
-            link: "/blogs/business-Foreigner-setup-oman", // path are redirect from app.jsx
-        },
-        {
-            id: 2,
-            title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
-            img: "/modernbusinessblog.png",
-            link: "/blogs/business-setup-oman", // path are redirect from app.jsx
+            img: "/Blogs Images/Comp Formation.jpg",
+            link: "/Blogs Images/Comp Formation.jpg", // path are redirect from app.jsx
         },
         {
             id: 3,
             title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
-            img: "/modernbusinessblog.png",
+            img: "/Blogs Images/modernbusinessblog.png",
             link: "/blogs/business-setup-oman", // path are redirect from app.jsx
         },
         {
             id: 4,
-            title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
-            img: "/modernbusinessblog.png",
-            link: "/blogs/business-setup-oman", // path are redirect from app.jsx
+            title:"Discover how PETAC helps foreigners start and grow businesses in Oman with expert guidance on LLCs, JSCs, and branch offices.",
+            img: "/Blogs Images/Comp Formation.jpg",
+            link: "/Blogs Images/Comp Formation.jpg", // path are redirect from app.jsx
         },
-        {
-            id: 5,
-            title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
-            img: "/modernbusinessblog.png",
-            link: "/blogs/business-setup-oman", // path are redirect from app.jsx
-        },
-        {
-            id: 6,
-            title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
-            img: "/modernbusinessblog.png",
-            link: "/blogs/business-setup-oman", // path are redirect from app.jsx
-        },
-        {
-            id: 7,
-            title: "Providing trusted Company Registration in Oman for seamless business operations and legal compliance",
-            img: "/modernbusinessblog.png",
-            link: "/blogs/business-setup-oman", // path are redirect from app.jsx
-        },
+        
+        
     ];
 
     return (
         <>
             {/* Banner Section */}
             <div className="relative h-64 md:h-96 w-full md:mt-36 page-top group">
-                <img src="/main banner for blog.png" className="w-full h-full" alt="Banner" />
+                <img src="/Blogs Images/main banner for blog.png" className="w-full h-full" alt="Banner" />
 
                 {/* Heading to appear on image hover */}
                 <div className="absolute inset-0 bg-gray-800 bg-opacity-0 group-hover:bg-opacity-70 transition-all duration-1000 ease-out flex items-center justify-center">

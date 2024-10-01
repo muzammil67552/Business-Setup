@@ -33,14 +33,7 @@ export const Categories = [
         title: "Carpentry",
         link: "/service/oman-visa-clearance",
       },
-      {
-        title: "Company Registration",
-        link: "/service/company-registration",
-      },
-      {
-        title: "LLC License & Formation",
-        link: "/service/llc-license-formation",
-      },
+    
     // Add more categories as needed
   ];
   

@@ -15,6 +15,7 @@ import LLCLicense from './pages/LLCLicense';
 import CompanyReg from './pages/CompanyReg';
 import ProServices from './pages/ProServices';
 import VisaClearance from './pages/VisaClearance';
+import MobileandHardware from './pages/MobileandHardware';
 // Faq
 import Contact from './components/Contact';
 import Faq from './pages/Faq';
@@ -45,6 +46,7 @@ function App() {
         <Route path="/service/company-registration" element={<CompanyReg />} />
         <Route path="/service/pro-service" element={<ProServices />} />
         <Route path="/service/oman-visa-clearance" element={<VisaClearance />} />
+        <Route path="/service/oman-mobile-hardware" element={<MobileandHardware />} />
 
         {/* Faq Pages */}
         <Route path="/contact" element={<div className="mt-36"><Contact /></div>} />
