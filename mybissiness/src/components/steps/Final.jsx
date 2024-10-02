@@ -1,7 +1,7 @@
 
 const Final = () => {
     return (
-        <div className="flex flex-col items-center justify-center p-6 bg-white shadow-lg rounded-lg">
+        <div className="flex flex-col items-center justify-center p-6 bg-white shadow-lg rounded-lg ">
             {/* Success Message */}
             <div className="bg-green-100 text-green-600 rounded-full w-32 h-32 flex items-center justify-center mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16" viewBox="0 0 20 20" fill="currentColor">

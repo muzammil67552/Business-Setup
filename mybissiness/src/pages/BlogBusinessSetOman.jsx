@@ -20,7 +20,7 @@ const BlogBusinessSetOman = () => {
       </div>
 
       <div className="container mx-auto gap-6 flex flex-col md:flex-row md:mt-24 mt-16">
-        <div className="w-full md:w-9/12 mt-6 md:mt-0 relative ml-2 border p-4">
+        <div className="w-full md:w-9/12 mt-6 md:mt-0 relative ml-2 border p-4 ">
           <div className="grid lg:grid-cols-1 md:grid-cols-1">
             <h1 className="md:text-5xl font-semibold text-3xl w-full">
                 Starting Your Business in Oman with PETAC Consultant

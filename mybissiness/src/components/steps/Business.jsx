@@ -10,7 +10,7 @@ const Business = () => {
     };
 
     return (
-        <div className="flex flex-col p-4">
+        <div className="flex flex-col p-4 bg-gradient-to-r from-green-400 via-green-500 to-green-600">
             <h2 className="text-2xl font-bold mb-4">Business Information</h2>
 
             <label className="mb-2 font-semibold">Select Business Category</label>

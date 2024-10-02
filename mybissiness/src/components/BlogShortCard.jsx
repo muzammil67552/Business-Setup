@@ -1,14 +1,14 @@
 import { BlogsCatagories } from '../assets/ServiceCatagory'//data are fetch from assets/ServiceCatagory
 import { FaFacebook } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
 const BlogShortCard = () => {
     return (
-                    <div className="w-full md:w-3/12">
-                            <div className="rounded-xl shadow-xl text-white font-semibold md:mt-0 mt-6 bg-[#4CAF4F]">
+                    <div className="w-full md:w-3/12 ">
+                            <div className="rounded-xl shadow-xl text-white font-semibold md:mt-0 mt-6 bg-gradient-to-r from-green-400 via-green-500 to-green-600">
                                 <div className="p-8">
                                     <div>
                                         <h1 className="text-3xl font-semibold text-center shadow-md p-2">
@@ -85,40 +85,40 @@ const BlogShortCard = () => {
                                    </div>
                                    <div className='grid grid-cols-2 gap-2 p-2'>
                                            <div className='border p-2'>
-                                             <NavLink to="https://www.facebook.com/profile.php?id=61564869346567">
+                                             <a href="https://www.facebook.com/profile.php?id=61564869346567" target="__jump">
                                              <button className='w-full py-2 bg-gray-500 text-white rounded hover:bg-[#4CAF4F] flex'>
                                              <FaFacebook className='text-2xl mx-2'/>
                                              <span>Facebook</span>
                                              </button>
-                                             </NavLink>
+                                             </a>
                                              
                                            </div>
 
                                            <div className='border p-2'>
-                                           <NavLink to="https://www.youtube.com/@Bussisnesinoman">                                   
+                                           <a href="" target="__jump">                                
                                              <button className='w-full py-2 bg-gray-500 text-white rounded hover:bg-[#4CAF4F] flex'>
                                             <FaYoutube className='text-2xl mx-2'/>
                                              <span>Youtube</span>
                                              </button>
-                                             </NavLink>
+                                             </a>
                                            </div>
 
                                            <div className='border p-2'>
-                                           <NavLink to="https://www.linkedin.com/in/brandseller-undefined-308808299/">
+                                           <a href="https://www.instagram.com/bussisnesinoman?igsh=MWFiMjYyMXZiaW10NA==" target="__jump">
                                              <button className='w-full py-2 bg-gray-500 text-white rounded hover:bg-[#4CAF4F] flex'>
-                                            <FaLinkedin className='text-2xl mx-2'/>
+                                            <FaInstagram className='text-2xl mx-2'/>
                                              <span> linkedin</span>
                                              </button>
-                                             </NavLink>
+                                             </a>
                                            </div>
 
                                            <div className='border p-2'>
-                                           <NavLink to="https://wa.me/96895259360">
+                                           <a href="https://wa.me/96895259360" target="__jump">
                                              <button className='w-full py-2 bg-gray-500 text-white rounded hover:bg-[#4CAF4F] flex'>
                                              <FaWhatsappSquare className='text-2xl mx-2'/>
                                              <span>WhatsApp</span>
                                              </button>
-                                             </NavLink>
+                                             </a>
                                            </div>
                                     </div>
 
@@ -128,3 +128,6 @@ const BlogShortCard = () => {
 };
 
 export default BlogShortCard;
+
+
+

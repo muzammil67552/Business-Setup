@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import  { useState, useEffect } from 'react'; // Make sure this is included
 import CatagoriesService from '../components/CatagoriesService';
-import { NavLink } from 'react-router-dom';
+import CalculatContact from '../components/CalculatContact';
 import TestimonialSlider from '../components/TestimonialSlider';
 import Modal from '../components/Modal';
 
@@ -145,20 +145,7 @@ const LLCLicense = () => {
         </div>
 
         <TestimonialSlider />
-
-        <div className="flex md:flex-row flex-col md:mt-32 mt-16 md:gap-10 gap-2 justify-center">
-          <NavLink to="/calculated-form">
-            <button className="md:text-3xl text-2xl md:px-24 w-full overflow-hidden md:py-3 py-2 bg-[#4CAF4F] text-white rounded-lg transition-transform transform hover:scale-110 hover:bg-white hover:text-[#4CAF4F] shadow-lg hover:shadow-2xl duration-500 ease-in-out">
-              Get Consulting Now
-            </button>
-          </NavLink>
-
-          <NavLink to="/contact">
-            <button className="md:text-3xl text-2xl md:px-24 w-full overflow-hidden md:py-3 py-2 bg-[#4CAF4F] text-white rounded-lg transition-transform transform hover:scale-110 hover:bg-white hover:text-[#4CAF4F] shadow-lg hover:shadow-2xl duration-500 ease-in-out">
-              Contact Us
-            </button>
-          </NavLink>
-        </div>
+        <CalculatContact/>
       </div>
 
       <Modal

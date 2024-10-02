@@ -9,7 +9,7 @@ const Contact = () => {
     return (
         <div className='antialiased bg-white  mt-16'>
         <div className='flex w-full min-h-screen justify-center items-center'>
-          <div className='flex flex-col md:flex-row md:space-x-8 bg-cyan-700 w-full max-w-6xl p-10 rounded-xl shadow-lg text-white'>
+          <div className='flex flex-col md:flex-row md:space-x-8 bg-gradient-to-r from-green-400 via-green-500 to-green-600 w-full max-w-6xl p-10 rounded-xl shadow-lg text-white'>
   
               {/* Left Section */}
               <div className='flex flex-col justify-between space-y-8 md:w-1/2'>

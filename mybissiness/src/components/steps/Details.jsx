@@ -10,7 +10,7 @@ const Details = () => {
     };
 
     return (
-        <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg">
+        <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg bg-gradient-to-r from-green-400 via-green-500 to-green-600">
             <h2 className="text-2xl font-bold mb-6">Personal Information</h2>
 
             {/* Name */}

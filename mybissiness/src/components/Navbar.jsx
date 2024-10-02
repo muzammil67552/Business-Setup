@@ -47,7 +47,7 @@ const Navbar = () => {
                 { label: "Oman Visa Clearance", path: "/service/oman-visa-clearance" },
                 { label: "Mobile Software & Hardware", path: "/service/oman-mobile-hardware" },
                 { label: "Garments", path: "/service/oman-garments-services" },
-                { label: "Carpentry", path: "/service/oman-garments-services" },
+                { label: "Carpentry", path: "/service/oman-carpentry-services" },
             ] 
         },
         { name: "Real State", path: "/real-state" },

@@ -17,6 +17,7 @@ import ProServices from './pages/ProServices';
 import VisaClearance from './pages/VisaClearance';
 import MobileandHardware from './pages/MobileandHardware';
 import Garments from './pages/Garments';
+import Carpentry from './pages/Carpentry';
 // Faq
 import Contact from './components/Contact';
 import Faq from './pages/Faq';
@@ -49,6 +50,7 @@ function App() {
         <Route path="/service/oman-visa-clearance" element={<VisaClearance />} />
         <Route path="/service/oman-mobile-hardware" element={<MobileandHardware />} />
         <Route path="/service/oman-garments-services" element={<Garments/>} />
+        <Route path="/service/oman-carpentry-services" element={<Carpentry/>}/>
 
         {/* Faq Pages */}
         <Route path="/contact" element={<div className="mt-36"><Contact /></div>} />

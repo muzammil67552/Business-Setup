@@ -90,7 +90,7 @@ const Home = () => {
                 </div>
 
                 {/* Carousel Section */}
-                <div className="md:mt-12 mt-8  border-b">
+                <div className="md:mt-12 mt-8  border-b ">
                     <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen">
                         <Carousel className="w-full mx-auto">
                             {/* Add Your business in carousel */}
@@ -228,7 +228,7 @@ const Home = () => {
                     </div>
                 </div>
                   {/* Content Or Text Section */}
-                <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen md:mt-24 mt-8 ">
+                <div className="px-4 lg:px-24 max-w-screen-2xl mx-auto min-h-screen md:mt-24 mt-8 ">
                     <div className="border-b shadow-md w-full md:text-left px-4">
                         <h1 className="text-3xl md:text-5xl font-semibold text-black leading-tight pb-6">
                             The Things You Will Expect From Our Consultant

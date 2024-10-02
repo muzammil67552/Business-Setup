@@ -38,14 +38,14 @@ const teamMembers = [
 
 const AboutUs = () => {
   return (
-    <div className="p-6 mt-44">
+    <div className="p-6 mt-44 bg-gray-50">
       {/* Section Heading */}
       <h2 className="md:text-5xl text-3xl font-semibold text-center mb-10 text-black hover:transition duration-300 cursor-pointer">
         Our Team
       </h2>
 
       {/* Cards Container */}
-      <div className="flex justify-center items-center flex-wrap gap-8">
+      <div className="flex justify-center items-center flex-wrap gap-8 ">
         {teamMembers.map((member, index) => (
           <div
             key={index}
@@ -94,8 +94,8 @@ const AboutUs = () => {
         ))}
       </div>
 
-      <div className=" lg:px-14 max-w-screen-2xl mx-auto min-h-screen md:mt-24 mt-10 ">
-        <div className="border-b shadow-md w-full md:text-left px-4 mb-6 pb-4">
+      <div className=" lg:px-20 max-w-screen-2xl mx-auto min-h-screen md:mt-24 mt-10">
+        <div className="border-b shadow-md w-full md:text-left  mb-6 pb-4 bg-white">
           <h1 className="md:text-5xl text-3xl font-semibold text-black">
             GER 100% FOREIGN OWNERSHIP COMPANY REGISTERED IN OMAN.
           </h1>
@@ -144,7 +144,7 @@ const AboutUs = () => {
           </p>
         </div>
 
-         <div className="border-b shadow-md w-full md:text-left px-4 mb-6 pb-4 md:mt-20 mt-10">
+         <div className="border-b shadow-md w-full md:text-left px-4 mb-6 pb-4 md:mt-20 mt-10  bg-white">
              <h1 className="md:text-4xl text-2xl font-semibold text-black">
                  Expert Services:
              </h1>
