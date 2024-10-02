@@ -85,31 +85,40 @@ const BlogShortCard = () => {
                                    </div>
                                    <div className='grid grid-cols-2 gap-2 p-2'>
                                            <div className='border p-2'>
+                                             <NavLink to="https://www.facebook.com/profile.php?id=61564869346567">
                                              <button className='w-full py-2 bg-gray-500 text-white rounded hover:bg-[#4CAF4F] flex'>
-                                             <a href='https://www.facebook.com/profile.php?id=61564869346567' target="__jump"><FaFacebook className='text-2xl mx-2'/></a>
-                                             <span>Facbook</span>
+                                             <FaFacebook className='text-2xl mx-2'/>
+                                             <span>Facebook</span>
                                              </button>
+                                             </NavLink>
+                                             
                                            </div>
 
                                            <div className='border p-2'>
+                                           <NavLink to="https://www.youtube.com/@Bussisnesinoman">                                   
                                              <button className='w-full py-2 bg-gray-500 text-white rounded hover:bg-[#4CAF4F] flex'>
-                                             <a href='https://www.youtube.com/channel/UC_ZBMmpDwjqNPbWlOsVh1Jw' target="__jump"><FaYoutube className='text-2xl mx-2'/></a>
+                                            <FaYoutube className='text-2xl mx-2'/>
                                              <span>Youtube</span>
                                              </button>
+                                             </NavLink>
                                            </div>
 
                                            <div className='border p-2'>
+                                           <NavLink to="https://www.linkedin.com/in/brandseller-undefined-308808299/">
                                              <button className='w-full py-2 bg-gray-500 text-white rounded hover:bg-[#4CAF4F] flex'>
-                                             <a href='https://www.linkedin.com/in/petac-petac-537285330/' target="__jump"><FaLinkedin className='text-2xl mx-2'/></a>
-                                             <span>Linkedin</span>
+                                            <FaLinkedin className='text-2xl mx-2'/>
+                                             <span> linkedin</span>
                                              </button>
+                                             </NavLink>
                                            </div>
 
                                            <div className='border p-2'>
+                                           <NavLink to="https://wa.me/96895259360">
                                              <button className='w-full py-2 bg-gray-500 text-white rounded hover:bg-[#4CAF4F] flex'>
-                                             <a href='https://wa.me/96895259360' target="__jump"><FaWhatsappSquare className='text-2xl mx-2'/></a>
+                                             <FaWhatsappSquare className='text-2xl mx-2'/>
                                              <span>WhatsApp</span>
                                              </button>
+                                             </NavLink>
                                            </div>
                                     </div>
 
