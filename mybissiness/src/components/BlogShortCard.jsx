@@ -38,7 +38,7 @@ const BlogShortCard = () => {
                               {BlogsCatagories.map((category, index) => (
                                 <li key={index} className="flex items-center text-xl ">
                                   <span className="font-bold text-xl mx-2 mr-2">✓</span>
-                                  <NavLink to={category.link} className="text-black">
+                                  <NavLink to={category.link} className="text-gray-700">
                                     {category.title}
                                   </NavLink>
                                 </li>

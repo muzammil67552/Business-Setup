@@ -45,9 +45,9 @@ const Navbar = () => {
                 { label: "Investor Company Formation", path: "/service/investor-company-formation" },
                 { label: "Pro Service", path: "/service/pro-service" },
                 { label: "Oman Visa Clearance", path: "/service/oman-visa-clearance" },
-                { label: "Mobile Software & Hardware", path: "/service/oman-visa-clearance" },
-                { label: "Garments", path: "/service/oman-visa-clearance" },
-                { label: "Carpentry", path: "/service/oman-visa-clearance" },
+                { label: "Mobile Software & Hardware", path: "/service/oman-mobile-hardware" },
+                { label: "Garments", path: "/service/oman-garments-services" },
+                { label: "Carpentry", path: "/service/oman-garments-services" },
             ] 
         },
         { name: "Real State", path: "/real-state" },

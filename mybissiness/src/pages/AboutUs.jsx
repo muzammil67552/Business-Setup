@@ -7,7 +7,7 @@ const teamMembers = [
   {
     name: "Mr: Umair Paracha",
     designation: "Board Chairman",
-    image: "/asifprofile.jpg",
+    image: "/testimonial 3.jpg",
     socialLinks: {
       Facebook: "#",
       Instagram: "#",
@@ -17,7 +17,7 @@ const teamMembers = [
   {
     name: "Mr: SaifUllah Mahmmod",
     designation: "Partner",
-    image: "/New Linkidn profile pic.png",
+    image: "/testimonial 3.jpg",
     socialLinks: {
       Facebook: "#",
       Instagram: "#",
@@ -40,7 +40,7 @@ const AboutUs = () => {
   return (
     <div className="p-6 mt-44">
       {/* Section Heading */}
-      <h2 className="md:text-5xl text-3xl font-semibold text-center mb-10 text-gray-800 hover:transition duration-300 cursor-pointer">
+      <h2 className="md:text-5xl text-3xl font-semibold text-center mb-10 text-black hover:transition duration-300 cursor-pointer">
         Our Team
       </h2>
 
@@ -96,79 +96,79 @@ const AboutUs = () => {
 
       <div className=" lg:px-14 max-w-screen-2xl mx-auto min-h-screen md:mt-24 mt-10 ">
         <div className="border-b shadow-md w-full md:text-left px-4 mb-6 pb-4">
-          <h1 className="md:text-5xl text-2xl font-semibold text-gray-800">
+          <h1 className="md:text-5xl text-3xl font-semibold text-black">
             GER 100% FOREIGN OWNERSHIP COMPANY REGISTERED IN OMAN.
           </h1>
           <p className="md:text-2xl text-xl md:mt-10 mt-4">
             Get your Investor Residence Visa (1 year - 2 Years - 5 Years or 10 years) Contact our Expert consultants.
           </p>
-          <h2 className="md:text-3xl text-2xl font-semibold text-gray-800 md:mt-10 mt-6 w-full">
+          <h2 className="md:text-4xl text-2xl font-semibold text-gray-800 md:mt-10 mt-6 w-full">
             The benefit of Oman Commercial Registration
           </h2>
            <br/>
-          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+          <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              100% Foreign Ownership
           </p>
-          <p className="md:text-2xl text-xl md:mt-4 mt-2 flex items-center mx-4 w-full">
+          <p className="text-xl md:mt-4 mt-2 flex items-center mx-4 w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              No Omani Partner Required
           </p>
-          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl">
+          <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              Multiple business activities
           </p>
-          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+          <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              Chamber of Commerce members
           </p>
-                <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+                <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              Long-term residency
           </p>
-          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+          <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
             Eligible investor visa 1 To 10
           </p>
-          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+          <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              Sponsor your family
           </p>
-          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+          <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              Company bank account
           </p>
-             <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+             <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              Tax registration
           </p>
         </div>
 
          <div className="border-b shadow-md w-full md:text-left px-4 mb-6 pb-4 md:mt-20 mt-10">
-             <h1 className="md:text-5xl text-2xl font-semibold text-gray-800">
+             <h1 className="md:text-4xl text-2xl font-semibold text-black">
                  Expert Services:
              </h1>
-             <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+             <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              Local Sponsorship
           </p>
-          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+          <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              LLC License Formation
           </p>
-          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+          <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              Investor company Formation
           </p>
-          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+          <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              Pro Service
           </p>
-          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+          <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              Oman Visa Clearance
           </p>
-          <p className="md:text-2xl md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
+          <p className="md:mt-4 mt-2 flex items-center mx-4 text-xl w-full">
             <FaArrowAltCircleRight className="text-green-500 mr-2" /> 
              Feel Freely Contact Us
           </p>
