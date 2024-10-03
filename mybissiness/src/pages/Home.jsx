@@ -91,7 +91,7 @@ const Home = () => {
 
                 {/* Carousel Section */}
                 <div className="md:mt-12 mt-8  border-b ">
-                    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto min-h-screen h-screen">
+                    <div className="px-4 lg:px-10 max-w-screen-2xl mx-auto min-h-screen h-screen">
                         <Carousel className="w-full mx-auto">
                             {/* Add Your business in carousel */}
                             {/* No 01 */}

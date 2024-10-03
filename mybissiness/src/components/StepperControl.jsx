@@ -4,17 +4,17 @@ const StepperControl = ({handleClick, currentStep, steps}) => {
    
 
     return (
-        <div className="container flex justify-center md:mx-24 gap-5 mb-10  ">
+        <div className="container flex justify-center md:mx-24 gap-3 mb-10   ">
             {/* back button */}
             <button 
                 onClick={() => handleClick()}
-                className={`btn-primary md:w-52 w-44 md:-mt-12 -mt-16  ${currentStep === 1 ? "cursor-not-allowed" : ""}`}>
+                className={`btn-primary md:w-52 w-36 md:-mt-12 -mt-16   ${currentStep === 1 ? "cursor-not-allowed" : ""}`}>
                 Back
             </button>
             {/* Next button */}
             <button
                 onClick={() => handleClick("next")}
-                className="btn-primary md:w-52 w-44 md:-mt-12 -mt-16 ">
+                className="btn-primary md:w-52 w-36 md:-mt-12 -mt-16  ">
                 {currentStep === steps.length - 1 ? "Confirm" : "Next"}
             </button>           
         </div>
