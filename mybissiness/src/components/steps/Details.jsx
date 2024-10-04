@@ -102,11 +102,11 @@ const Details = () => {
         <select
           name="countryCode"
           onChange={handleChange}
-          className="mr-2 border rounded-lg p-2"
+          className="mr-2 border rounded-lg py-2"
           value={userData.countryCode}
           style={{ maxHeight: '150px', overflowY: 'auto' }}
         >
-          <option value="">Select country code</option>
+          <option value="">code</option>
           {countryCodes.map(({ code, codeThreeLetters }) => (
             <option key={code} value={code}>
               {code} - {codeThreeLetters}
@@ -119,7 +119,7 @@ const Details = () => {
           value={userData.contactNumber}
           onChange={handleChange}
           placeholder="Contact Number"
-          className={`border rounded-lg p-2 ${errors.contactNumber ? 'border-red-500' : ''}`}
+          className={`border rounded-lg  ${errors.contactNumber ? 'border-red-500' : ''}`}
         />
       </div>
       {errors.contactNumber && <p className="text-red-500 text-sm">{errors.contactNumber}</p>}
