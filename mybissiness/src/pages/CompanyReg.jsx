@@ -81,7 +81,7 @@ const CompanyReg = () => {
       <Modal
         showModal={showModal}
         closeModal={closeModal}
-        imageSrc="/Company Formation/comp Reg Modal.jpg"
+        imageSrc="/Company Formation/Modal Comp Reg.png"
       />
     </>
   );

@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import TestimonialSlider from '../components/TestimonialSlider';
 import  { useState } from 'react';
 import ServiceCard from "../components/ServiceCard";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
      const [hovered, setHovered] = useState(false);
@@ -80,9 +81,11 @@ const Home = () => {
                                     <p className="text-xl text-gray-700 mb-6 transition-all duration-500 hover:text-gray-900">
                                      PETAC offers expert business consultation services in Oman, providing tailored solutions for startups and established companies. We specialize in business setup, strategic planning, and navigating Omans regulatory landscape to ensure smooth operations and growth.
                                     </p>
-                                    <button className="btn-primary">
-                                      Learn More
-                                    </button>
+                                     <NavLink to="/about">
+                                       <button className="btn-primary">
+                                         Learn More
+                                       </button>
+                                    </NavLink>
                             </div>
                         </div>
 
@@ -109,9 +112,12 @@ const Home = () => {
                                         <p className="text-xl mb-8 text-gray-700">
                                         PETAC Consultant in Oman offers expert guidance for setting up Garments and Boutique businesses. From registration to market entry, we provide tailored solutions to launch your fashion venture smoothly. Let us turn your fashion ideas into reality with our support and strategy.
                                         </p>
-                                        <button className="btn-primary mb-24 md:mb:12">
-                                            Learn More
-                                        </button>
+                                        <NavLink to="/service/oman-garments-services">              
+                                              <button className="btn-primary mb-24 md:mb:12">
+                                                   Learn More
+                                              </button>
+                                        </NavLink>
+
                                     </div>
                                 </div>
                                 
@@ -131,9 +137,12 @@ const Home = () => {
                                         <p className="text-xl mb-8 text-gray-700">
                                         PETAC Consultant in Oman provides expert support for establishing Mobile and Hardware shops. From licensing to operational setup, we ensure a seamless process to launch your tech business successfully with the right guidance and strategy.
                                         </p>
-                                        <button className="btn-primary mb-24 md:mb:12">
-                                            Learn More
-                                        </button>
+                                        <NavLink to="/service/oman-mobile-hardware">              
+                                              <button className="btn-primary mb-24 md:mb:12">
+                                                   Learn More
+                                              </button>
+                                        </NavLink>
+
                                     </div>
                                 </div>
                                 
@@ -153,9 +162,12 @@ const Home = () => {
                                         <p className="text-xl mb-8 text-gray-700">
                                             PETAC Consultant in Oman offers specialized support for setting up Carpentry and Workshop businesses. We guide you through the entire process, from licensing to setup, ensuring your workshop runs efficiently with our tailored business solutions.
                                         </p>
-                                        <button className="btn-primary mb-24 md:mb:12">
-                                            Learn More
-                                        </button>
+                                        <NavLink to="/service/oman-carpentry-services">              
+                                              <button className="btn-primary mb-24 md:mb:12">
+                                                   Learn More
+                                              </button>
+                                        </NavLink>
+
                                     </div>
                                 </div>
                                 
@@ -175,9 +187,12 @@ const Home = () => {
                                         <p className="text-xl mb-8">
                                             A business consulting firm based in Oman, providing expert guidance on strategic planning, operations, and market expansion. Specializing in helping companies grow within the regions dynamic business environment, the firm offers tailored solutions for sustainable success.
                                         </p>
-                                        <button className="btn-primary mb-24 md:mb:12">
-                                            Learn More
-                                        </button>
+                                        <NavLink to="/service/company-registration">              
+                                              <button className="btn-primary mb-24 md:mb:12">
+                                                   Learn More
+                                              </button>
+                                        </NavLink>
+
                                     </div>
                                 </div>                                
                             ))}
@@ -196,9 +211,12 @@ const Home = () => {
                                         <p className="text-xl mb-8 text-gray-700">
                                             A business consulting firm based in Oman, providing expert guidance on strategic planning, operations, and market expansion. Specializing in helping companies grow within the regions dynamic business environment, the firm offers tailored solutions for sustainable success.
                                         </p>
-                                        <button className="btn-primary mb-24 md:mb:12">
-                                            Learn More
-                                        </button>
+                                        <NavLink to="/service/llc-license-formation">              
+                                              <button className="btn-primary mb-24 md:mb:12">
+                                                   Learn More
+                                              </button>
+                                        </NavLink>
+
                                     </div>
                                 </div>                                
                             ))}
@@ -217,9 +235,12 @@ const Home = () => {
                                         <p className="text-xl mb-8 text-gray-700">
                                             A business consulting firm based in Oman, providing expert guidance on strategic planning, operations, and market expansion. Specializing in helping companies grow within the regions dynamic business environment, the firm offers tailored solutions for sustainable success.
                                         </p>
-                                        <button className="btn-primary mb-24 md:mb:12">
-                                            Learn More
-                                        </button>
+                                        <NavLink to="/service/company-registration">              
+                                              <button className="btn-primary mb-24 md:mb:12">
+                                                   Learn More
+                                              </button>
+                                        </NavLink>
+
                                     </div>
                                 </div>                                
                             ))}
