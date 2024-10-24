@@ -6,7 +6,7 @@ import { TbBrandTeams } from "react-icons/tb";
 const CompanyInfo = () => {
   return (
     <div className="container max-w-screen-2xl h-1/2 bg-gray-50 border-b md:px-24 px-6 md:mt-24 mt-10 mx-auto">
-      <div className="flex flex-col md:flex-row justify-between items-center gap-8 pb-20 m-auto">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-8pb-20 m-auto">
         <div className="md:w-1/3">
           <h2 className="md:text-5xl text-3xl font-semibold text-neutralDGray mb-4 mt-20 mx-6 md:mx-0">
             Business Consultant In Oman
